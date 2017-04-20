@@ -1,17 +1,29 @@
-[05:56:11] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[05:56:11] [Server thread/INFO]: Loading properties
-[05:56:11] [Server thread/INFO]: Default game type: SURVIVAL
-[05:56:11] [Server thread/INFO]: Generating keypair
-[05:56:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:56:11] [Server thread/INFO]: Using epoll channel type
-[05:56:12] [Server thread/INFO]: Preparing level "world"
-[05:56:12] [Server thread/INFO]: Preparing start region for level 0
-[05:56:13] [Server thread/INFO]: Preparing spawn area: 2%
-[05:56:14] [Server thread/INFO]: Preparing spawn area: 43%
-[05:56:15] [Server thread/INFO]: Preparing spawn area: 95%
-[05:56:15] [Server thread/INFO]: Done (3.419s)! For help, type "help" or "?"
-[05:57:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 56901ms behind, skipping 1138 tick(s)
-[05:57:51] [Server Shutdown Thread/INFO]: Stopping server
-[05:57:51] [Server Shutdown Thread/INFO]: Saving players
-[05:57:51] [Server Shutdown Thread/INFO]: Saving worlds
-[05:57:51] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
+[07:30:54] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[07:30:54] [Server thread/INFO]: Loading properties
+[07:30:54] [Server thread/INFO]: Default game type: SURVIVAL
+[07:30:54] [Server thread/INFO]: Generating keypair
+[07:30:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:30:55] [Server thread/INFO]: Using epoll channel type
+[07:30:55] [Server thread/INFO]: Preparing level "world"
+[07:30:56] [Server thread/INFO]: Preparing start region for level 0
+[07:30:57] [Server thread/INFO]: Preparing spawn area: 5%
+[07:30:58] [Server thread/INFO]: Preparing spawn area: 9%
+[07:30:59] [Server thread/INFO]: Preparing spawn area: 13%
+[07:31:00] [Server thread/INFO]: Preparing spawn area: 19%
+[07:31:01] [Server thread/INFO]: Preparing spawn area: 24%
+[07:31:02] [Server thread/INFO]: Preparing spawn area: 31%
+[07:31:03] [Server thread/INFO]: Preparing spawn area: 38%
+[07:31:04] [Server thread/INFO]: Preparing spawn area: 44%
+[07:31:05] [Server thread/INFO]: Preparing spawn area: 50%
+[07:31:06] [Server thread/INFO]: Preparing spawn area: 56%
+[07:31:07] [Server thread/INFO]: Preparing spawn area: 64%
+[07:31:08] [Server thread/INFO]: Preparing spawn area: 71%
+[07:31:09] [Server thread/INFO]: Preparing spawn area: 81%
+[07:31:10] [Server thread/INFO]: Preparing spawn area: 91%
+[07:31:11] [Server thread/INFO]: Preparing spawn area: 99%
+[07:31:11] [Server thread/INFO]: Done (16.337s)! For help, type "help" or "?"
+[07:31:32] [User Authenticator #1/INFO]: UUID of player GoldNuggetZelas is 96e8760d-f13e-4d39-abdb-53ef186ebb36
+[07:31:32] [Server thread/INFO]: GoldNuggetZelas[/169.234.241.69:59455] logged in with entity id 948 at (43.5, 71.0, 259.5)
+[07:31:32] [Server thread/INFO]: GoldNuggetZelas joined the game
+[07:31:43] [Server thread/INFO]: GoldNuggetZelas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[07:31:43] [Server thread/INFO]: GoldNuggetZelas left the game
