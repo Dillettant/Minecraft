@@ -1,57 +1,9 @@
-[20:16:35] [Server thread/INFO]: Starting minecraft server version 1.7.4
-[20:16:35] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[20:16:35] [Server thread/INFO]: Loading properties
-[20:16:35] [Server thread/WARN]: server.properties does not exist
-[20:16:35] [Server thread/INFO]: Generating new properties file
-[20:16:35] [Server thread/INFO]: Default game type: SURVIVAL
-[20:16:35] [Server thread/INFO]: Generating keypair
-[20:16:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:16:36] [Server thread/WARN]: Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
-[20:16:36] [Server thread/WARN]: Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
-[20:16:36] [Server thread/INFO]: Preparing level "world"
-[20:16:36] [Server thread/INFO]: Preparing start region for level 0
-[20:16:37] [Server thread/INFO]: Preparing spawn area: 5%
-[20:16:38] [Server thread/INFO]: Preparing spawn area: 9%
-[20:16:39] [Server thread/INFO]: Preparing spawn area: 11%
-[20:16:40] [Server thread/INFO]: Preparing spawn area: 14%
-[20:16:41] [Server thread/INFO]: Preparing spawn area: 18%
-[20:16:43] [Server thread/INFO]: Preparing spawn area: 22%
-[20:16:44] [Server thread/INFO]: Preparing spawn area: 28%
-[20:16:45] [Server thread/INFO]: Preparing spawn area: 32%
-[20:16:46] [Server thread/INFO]: Preparing spawn area: 37%
-[20:16:47] [Server thread/INFO]: Preparing spawn area: 41%
-[20:16:49] [Server thread/INFO]: Preparing spawn area: 45%
-[20:16:50] [Server thread/INFO]: Preparing spawn area: 48%
-[20:16:51] [Server thread/INFO]: Preparing spawn area: 53%
-[20:16:52] [Server thread/INFO]: Preparing spawn area: 56%
-[20:16:54] [Server thread/INFO]: Preparing spawn area: 61%
-[20:16:55] [Server thread/INFO]: Preparing spawn area: 64%
-[20:16:56] [Server thread/INFO]: Preparing spawn area: 71%
-[20:16:57] [Server thread/INFO]: Preparing spawn area: 75%
-[20:16:58] [Server thread/INFO]: Preparing spawn area: 83%
-[20:16:59] [Server thread/INFO]: Preparing spawn area: 92%
-[20:17:00] [Server thread/INFO]: Preparing spawn area: 98%
-[20:17:02] [Server thread/INFO]: Done (23.827s)! For help, type "help" or "?"
-[20:17:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2289ms behind, skipping 45 tick(s)
-[20:17:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4630ms behind, skipping 92 tick(s)
-[20:18:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4426ms behind, skipping 88 tick(s)
-[20:21:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5590ms behind, skipping 111 tick(s)
-[20:21:35] [User Authenticator #1/INFO]: UUID of player GoldNuggetZelas is 96e8760df13e4d39abdb53ef186ebb36
-[20:21:35] [Server thread/INFO]: GoldNuggetZelas[/192.168.59.1:50803] logged in with entity id 2534 at (-89.5, 71.0, 247.5)
-[20:21:35] [Server thread/INFO]: GoldNuggetZelas joined the game
-[20:22:21] [Server thread/INFO]: GoldNuggetZelas lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Broken pipe], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:22:21] [Server thread/INFO]: GoldNuggetZelas left the game
-[20:22:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 43554ms behind, skipping 871 tick(s)
-[20:22:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2319ms behind, skipping 46 tick(s)
-[20:23:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2315ms behind, skipping 46 tick(s)
-[20:27:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2096ms behind, skipping 41 tick(s)
-[20:29:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2133ms behind, skipping 42 tick(s)
-[20:34:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3332ms behind, skipping 66 tick(s)
-[20:34:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3489ms behind, skipping 69 tick(s)
-[20:35:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2037ms behind, skipping 40 tick(s)
-[20:35:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2790ms behind, skipping 55 tick(s)
-[20:37:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5219ms behind, skipping 104 tick(s)
-[20:37:13] [Server Shutdown Thread/INFO]: Stopping server
-[20:37:13] [Server Shutdown Thread/INFO]: Saving players
-[20:37:13] [Server Shutdown Thread/INFO]: Saving worlds
-[20:37:13] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
+[04:27:29] [Server thread/INFO]: Starting minecraft server version 1.7.4
+[04:27:29] [Server thread/INFO]: Loading properties
+[04:27:29] [Server thread/INFO]: Default game type: SURVIVAL
+[04:27:29] [Server thread/INFO]: Generating keypair
+[04:27:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:27:29] [Server thread/INFO]: Preparing level "world"
+[04:27:29] [Server thread/INFO]: Preparing start region for level 0
+[04:27:30] [Server thread/INFO]: Preparing spawn area: 56%
+[04:27:31] [Server thread/INFO]: Done (1.556s)! For help, type "help" or "?"
