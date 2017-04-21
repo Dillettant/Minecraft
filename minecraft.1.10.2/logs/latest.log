@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [20:51:41] [Server thread/INFO]: Starting minecraft server version 1.10.2
 [20:51:41] [Server thread/INFO]: Loading properties
 [20:51:41] [Server thread/INFO]: Default game type: SURVIVAL
@@ -82,3 +83,16 @@ java.io.IOException: Input/output error
 [21:09:25] [Server Watchdog/FATAL]: A single server tick took 1043.16 seconds (should be max 0.05)
 [21:09:25] [Server Shutdown Thread/INFO]: Stopping server
 [21:09:25] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+=======
+[04:53:03] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[04:53:03] [Server thread/INFO]: Loading properties
+[04:53:03] [Server thread/INFO]: Default game type: SURVIVAL
+[04:53:03] [Server thread/INFO]: Generating keypair
+[04:53:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:53:03] [Server thread/INFO]: Using epoll channel type
+[04:53:03] [Server thread/INFO]: Preparing level "world"
+[04:53:04] [Server thread/INFO]: Preparing start region for level 0
+[04:53:05] [Server thread/INFO]: Preparing spawn area: 4%
+[04:53:06] [Server thread/INFO]: Preparing spawn area: 55%
+[04:53:06] [Server thread/INFO]: Done (2.933s)! For help, type "help" or "?"
+>>>>>>> 1200374e32942a3a41c22300a1806ad4c9796a6d
