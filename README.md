@@ -1,7 +1,7 @@
 # This is the instruction of the Industral Era!
 
-1. Move into ./Minecraft and download "forge-1.10.2-installer.jar";
-2. Move into ./Minecraft and download "mods", which includes a directory named "1.10.2";
+1. Move into "./Resource/Minecraft" and download "forge-1.10.2-installer.jar";
+2. Move into "./Resource/Minecraft" and download "mods", which includes a directory named "1.10.2";
 3. Run the "forge-1.10.2-installer.jar" and install the Forge.1.10.2;
 	* Make sure you've installed the laucher, that is, you can play the game in the default mode
 	* You'd better use the default directory to install the client
