@@ -1,98 +1,14 @@
-<<<<<<< HEAD
-[20:51:41] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[20:51:41] [Server thread/INFO]: Loading properties
-[20:51:41] [Server thread/INFO]: Default game type: SURVIVAL
-[20:51:41] [Server thread/INFO]: Generating keypair
-[20:51:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:51:41] [Server thread/INFO]: Using default channel type
-[20:51:42] [Server thread/WARN]: Failed to load user banlist: 
-java.io.FileNotFoundException: banned-players.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_40]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_40]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_40]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.jar:?]
-	at mt.g(SourceFile:136) ~[minecraft_server.jar:?]
-	at lc.z(SourceFile:99) [minecraft_server.jar:?]
-	at lc.<init>(SourceFile:25) [minecraft_server.jar:?]
-	at ld.j(SourceFile:185) [minecraft_server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:428) [minecraft_server.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
-[20:51:42] [Server thread/WARN]: Failed to load ip banlist: 
-java.io.FileNotFoundException: banned-ips.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_40]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_40]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_40]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.jar:?]
-	at mt.g(SourceFile:136) ~[minecraft_server.jar:?]
-	at lc.y(SourceFile:91) [minecraft_server.jar:?]
-	at lc.<init>(SourceFile:27) [minecraft_server.jar:?]
-	at ld.j(SourceFile:185) [minecraft_server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:428) [minecraft_server.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
-[20:51:42] [Server thread/WARN]: Failed to load operators list: 
-java.io.FileNotFoundException: ops.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_40]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_40]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_40]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.jar:?]
-	at mt.g(SourceFile:136) ~[minecraft_server.jar:?]
-	at lc.A(SourceFile:107) [minecraft_server.jar:?]
-	at lc.<init>(SourceFile:29) [minecraft_server.jar:?]
-	at ld.j(SourceFile:185) [minecraft_server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:428) [minecraft_server.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
-[20:51:42] [Server thread/WARN]: Failed to load white-list: 
-java.io.FileNotFoundException: whitelist.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_40]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_40]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_40]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.jar:?]
-	at mt.g(SourceFile:136) ~[minecraft_server.jar:?]
-	at lc.C(SourceFile:123) [minecraft_server.jar:?]
-	at lc.<init>(SourceFile:30) [minecraft_server.jar:?]
-	at ld.j(SourceFile:185) [minecraft_server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:428) [minecraft_server.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40]
-[20:51:42] [Server thread/INFO]: Preparing level "world"
-[20:51:42] [Server thread/WARN]: Unable to find spawn biome
-[20:51:43] [Server thread/INFO]: Preparing start region for level 0
-[20:51:44] [Server thread/INFO]: Preparing spawn area: 9%
-[20:51:45] [Server thread/INFO]: Preparing spawn area: 17%
-[20:51:46] [Server thread/INFO]: Preparing spawn area: 27%
-[20:51:47] [Server thread/INFO]: Preparing spawn area: 39%
-[20:51:48] [Server thread/INFO]: Preparing spawn area: 51%
-[20:51:49] [Server thread/INFO]: Preparing spawn area: 66%
-[20:51:50] [Server thread/INFO]: Preparing spawn area: 83%
-[20:51:51] [Server thread/INFO]: Preparing spawn area: 96%
-[20:51:52] [Server thread/INFO]: Done (9.850s)! For help, type "help" or "?"
-[21:09:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1043145ms behind, skipping 20862 tick(s)
-[21:09:25] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_40]
-	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_40]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_40]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_40]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_40]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_40]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_40]
-	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_40]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_40]
-	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_40]
-	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_40]
-	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
-[21:09:25] [Server Watchdog/FATAL]: A single server tick took 1043.16 seconds (should be max 0.05)
-[21:09:25] [Server Shutdown Thread/INFO]: Stopping server
-[21:09:25] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-=======
-[04:53:03] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[04:53:03] [Server thread/INFO]: Loading properties
-[04:53:03] [Server thread/INFO]: Default game type: SURVIVAL
-[04:53:03] [Server thread/INFO]: Generating keypair
-[04:53:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:53:03] [Server thread/INFO]: Using epoll channel type
-[04:53:03] [Server thread/INFO]: Preparing level "world"
-[04:53:04] [Server thread/INFO]: Preparing start region for level 0
-[04:53:05] [Server thread/INFO]: Preparing spawn area: 4%
-[04:53:06] [Server thread/INFO]: Preparing spawn area: 55%
-[04:53:06] [Server thread/INFO]: Done (2.933s)! For help, type "help" or "?"
->>>>>>> 1200374e32942a3a41c22300a1806ad4c9796a6d
+[22:45:06] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[22:45:06] [Server thread/INFO]: Loading properties
+[22:45:06] [Server thread/INFO]: Default game type: SURVIVAL
+[22:45:06] [Server thread/INFO]: Generating keypair
+[22:45:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:45:07] [Server thread/INFO]: Using default channel type
+[22:45:07] [Server thread/INFO]: Preparing level "world"
+[22:45:07] [Server thread/INFO]: Preparing start region for level 0
+[22:45:08] [Server thread/INFO]: Preparing spawn area: 42%
+[22:45:09] [Server thread/INFO]: Done (1.886s)! For help, type "help" or "?"
+[23:33:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2890678ms behind, skipping 57813 tick(s)
+[23:33:23] [Server Watchdog/FATAL]: A single server tick took 2890.69 seconds (should be max 0.05)
+[23:33:23] [Server Shutdown Thread/INFO]: Stopping server
+[23:33:23] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
