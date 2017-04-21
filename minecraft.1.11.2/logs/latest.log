@@ -1,195 +1,26 @@
-[13:37:28] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[13:37:28] [Server thread/INFO]: Loading properties
-[13:37:28] [Server thread/INFO]: Default game type: SURVIVAL
-[13:37:28] [Server thread/INFO]: Generating keypair
-[13:37:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:37:29] [Server thread/INFO]: Using epoll channel type
-[13:37:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:37:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:37:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:37:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:37:32] [Server thread/INFO]: Preparing level "world"
-[13:37:32] [Server thread/INFO]: Preparing start region for level 0
-[13:37:33] [Server thread/INFO]: Preparing spawn area: 0%
-[13:37:34] [Server thread/INFO]: Preparing spawn area: 38%
-[13:37:35] [Server thread/INFO]: Done (3.268s)! For help, type "help" or "?"
-[13:39:08] [Server thread/INFO]: GoldNuggetZelas[/169.234.241.69:61621] logged in with entity id 160 at (38.5, 72.0, 265.5)
-[13:39:08] [Server thread/INFO]: GoldNuggetZelas joined the game
-[13:39:13] [Server thread/INFO]: GoldNuggetZelas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[13:39:13] [Server thread/INFO]: GoldNuggetZelas left the game
-[13:43:34] [Server thread/INFO]: Rebooorn[/31.16.251.240:21776] logged in with entity id 237 at (37.5, 72.0, 259.5)
-[13:43:34] [Server thread/INFO]: Rebooorn joined the game
-[13:44:00] [Server thread/INFO]: Rebooorn lost connection: TextComponent{text='You logged in from another location', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[13:44:00] [Server thread/INFO]: Rebooorn left the game
-[13:44:00] [Server thread/WARN]: handleDisconnection() called twice
-[13:44:00] [Server thread/INFO]: Rebooorn[/31.16.251.240:21816] logged in with entity id 714 at (33.07119985656392, 72.0, 266.1669089778054)
-[13:44:00] [Server thread/INFO]: Rebooorn joined the game
-[13:44:42] [Server thread/INFO]: Rebooorn has just earned the achievement [Taking Inventory]
-[13:45:39] [Server thread/INFO]: Rebooorn lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[13:45:39] [Server thread/INFO]: Rebooorn left the game
-[14:04:47] [Server thread/INFO]: Rebooorn[/31.16.251.240:21782] logged in with entity id 2611 at (64.67900837833054, 68.0, 346.3167215059191)
-[14:04:47] [Server thread/INFO]: Rebooorn joined the game
-[14:11:59] [Server thread/INFO]: Rebooorn was slain by Zombie
-[14:13:19] [Server thread/INFO]: Rebooorn was shot by Skeleton
-[14:13:31] [Server thread/INFO]: Rebooorn was slain by Zombie
-[14:15:33] [Server thread/INFO]: Rebooorn has just earned the achievement [Getting Wood]
-[14:16:00] [Server thread/INFO]: Rebooorn has just earned the achievement [Benchmarking]
-[14:16:33] [Server thread/INFO]: Rebooorn has just earned the achievement [Time to Mine!]
-[14:17:02] [Server thread/INFO]: Rebooorn has just earned the achievement [Time to Strike!]
-[14:22:09] [Server thread/INFO]: Rebooorn has just earned the achievement [Cow Tipper]
-[14:26:18] [Server thread/INFO]: Rebooorn lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[14:26:18] [Server thread/INFO]: Rebooorn left the game
-[20:15:03] [Server thread/INFO]: GoldNuggetZelas[/169.234.241.69:64479] logged in with entity id 21268 at (38.5, 72.0, 265.5)
-[20:15:03] [Server thread/INFO]: GoldNuggetZelas joined the game
-[20:18:03] [Server thread/INFO]: GoldNuggetZelas has just earned the achievement [Taking Inventory]
-[20:37:47] [Server thread/INFO]: Rebooorn[/31.16.251.183:41828] logged in with entity id 37307 at (65.69999998807901, 67.0, 253.46109441697814)
-[20:37:47] [Server thread/INFO]: Rebooorn joined the game
-[20:38:12] [Server thread/INFO]: <GoldNuggetZelas> tell Rebooorn hi
-[20:39:03] [Server thread/INFO]: <GoldNuggetZelas> changchang
-[20:39:24] [Server thread/INFO]: <GoldNuggetZelas> wo cuo le
-[20:39:53] [Server thread/INFO]: <Rebooorn> OK
-[20:40:12] [Server thread/INFO]: <Rebooorn> we can practice english here
-[20:40:17] [Server thread/INFO]: <GoldNuggetZelas> ok
-[20:40:21] [Server thread/INFO]: <GoldNuggetZelas> great idea
-[20:40:31] [Server thread/INFO]: <Rebooorn> build a shelter first
-[20:40:43] [Server thread/INFO]: <Rebooorn> fuck zombies
-[20:40:53] [Server thread/INFO]: <GoldNuggetZelas> hhhh
-[20:41:01] [Server thread/INFO]: <GoldNuggetZelas> I've got some iron
-[20:41:02] [Server thread/INFO]: <Rebooorn> i am killed again and again
-[20:41:10] [Server thread/INFO]: <Rebooorn> .....
-[20:41:18] [Server thread/INFO]: <Rebooorn> advanced
-[20:41:32] [Server thread/INFO]: <Rebooorn> no bed?
-[20:41:45] [Server thread/INFO]: <GoldNuggetZelas> no sheep
-[20:42:06] [Server thread/INFO]: <GoldNuggetZelas> I've added your name to the game manager
-[20:42:11] [Server thread/INFO]: <Rebooorn> OK
-[20:42:24] [Server thread/INFO]: <Rebooorn> 66 71 255
-[20:43:28] [Server thread/INFO]: <Rebooorn> make some cooked meat
-[20:43:40] [Server thread/INFO]: <GoldNuggetZelas> I;m going to get some coal and wood
-[20:43:43] [Server thread/INFO]: <GoldNuggetZelas> great
-[20:43:48] [Server thread/INFO]: <GoldNuggetZelas> youxiu
-[20:43:55] [Server thread/INFO]: GoldNuggetZelas has just earned the achievement [Getting Wood]
-[20:44:09] [Server thread/INFO]: <Rebooorn> you dont have lessons?
-[20:44:18] [Server thread/INFO]: <GoldNuggetZelas> not today
-[20:45:16] [Server thread/INFO]: <GoldNuggetZelas> wo men hao ke lian
-[20:46:11] [Server thread/INFO]: <Rebooorn> you dao wan shang le ...
-[20:46:20] [Server thread/INFO]: <GoldNuggetZelas> gan jue xiang zai gao ji
-[20:46:47] [Server thread/INFO]: <Rebooorn> guai guai zhan hao ~
-[20:47:05] [Server thread/INFO]: <GoldNuggetZelas> wo huo guo lai le
-[20:47:27] [Server thread/INFO]: Rebooorn has just earned the achievement [Getting an Upgrade]
-[20:48:31] [Server thread/INFO]: <Rebooorn> no chinese language pack?
-[20:48:34] [Server thread/INFO]: <GoldNuggetZelas> wo yao qu da jiang shi
-[20:48:44] [Server thread/INFO]: <GoldNuggetZelas> bu zhidao zenme jia
-[20:48:48] [Server thread/INFO]: <Rebooorn> yi lu zou hao
-[20:49:28] [Server thread/INFO]: <Rebooorn> hhh
-[20:49:55] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[20:50:05] [Server thread/INFO]: Rebooorn has just earned the achievement [Monster Hunter]
-[20:50:18] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[20:50:30] [Server thread/INFO]: <Rebooorn> kan dao xiao hei le
-[20:51:03] [Server thread/INFO]: <Rebooorn> WHERE ARE YOU
-[20:51:28] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[20:51:36] [Server thread/INFO]: <GoldNuggetZelas> nima
-[20:51:42] [Server thread/INFO]: <Rebooorn> JJ
-[20:52:00] [Server thread/INFO]: <Rebooorn> we need armor
-[20:52:12] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[20:52:27] [Server thread/INFO]: <GoldNuggetZelas> bu gai lang de
-[20:52:36] [Server thread/INFO]: <Rebooorn> hhh sb
-[20:53:05] [Server thread/INFO]: <Rebooorn> sunrise
-[20:53:15] [Server thread/INFO]: <GoldNuggetZelas> tian liang le
-[20:53:26] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[20:54:22] [Server thread/INFO]: <GoldNuggetZelas> mai mai pi
-[20:54:32] [Server thread/INFO]: <Rebooorn> hhh
-[20:54:38] [Server thread/INFO]: <Rebooorn> make armor
-[20:55:46] [Server thread/INFO]: <GoldNuggetZelas> I've found a cave
-[20:55:58] [Server thread/INFO]: <GoldNuggetZelas> but I don't have coal
-[20:56:42] [Server thread/INFO]: <Rebooorn> go find them
-[20:58:21] [Server thread/INFO]: <Rebooorn> and need more trees
-[20:58:35] [Server thread/INFO]: <GoldNuggetZelas> zhao dao coal le
-[20:58:44] [Server thread/INFO]: <Rebooorn> great
-[20:59:39] [Server thread/INFO]: <Rebooorn> wo qu plant tree
-[20:59:51] [Server thread/INFO]: <GoldNuggetZelas> hou ha
-[21:01:16] [Server thread/INFO]: <GoldNuggetZelas> wo xia qu fang shui
-[21:01:28] [Server thread/INFO]: <GoldNuggetZelas> ran hou ni jiu ke yi tiao xia lai le
-[21:01:42] [Server thread/INFO]: <Rebooorn> hou a
-[21:03:50] [Server thread/INFO]: <GoldNuggetZelas> fang hao shui le
-[21:06:16] [Server thread/INFO]: <Rebooorn> hui lai a?
-[21:06:41] [Server thread/INFO]: <GoldNuggetZelas> wo shang bu lai T. T
-[21:07:34] [Server thread/INFO]: <Rebooorn> yao bu yao zhong xiao mai?
-[21:07:40] [Server thread/INFO]: <Rebooorn> mei chi de
-[21:07:47] [Server thread/INFO]: <GoldNuggetZelas> hao a !
-[21:10:28] [Server thread/INFO]: GoldNuggetZelas was killed by Witch using magic
-[21:11:04] [Server thread/INFO]: <GoldNuggetZelas> wo bei nv wu nong si le
-[21:11:29] [Server thread/INFO]: <Rebooorn> dong xi diao le?
-[21:11:36] [Server thread/INFO]: <GoldNuggetZelas> dui ....
-[21:11:45] [Server thread/INFO]: <GoldNuggetZelas> chang chang you mu tou ma
-[21:11:50] [Server thread/INFO]: <GoldNuggetZelas> gei dian mu tou he tie
-[21:13:21] [Server thread/INFO]: <Rebooorn> xian develop yi hui
-[21:14:09] [Server thread/INFO]: <GoldNuggetZelas> >,<
-[21:14:40] [Server thread/INFO]: <Rebooorn> ni yao xiang xiang zen me shang lai a ....
-[21:16:08] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[21:16:12] [Server thread/INFO]: Rebooorn has just earned the achievement [Time to Farm!]
-[21:17:08] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[21:21:29] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[21:25:47] [Server thread/INFO]: <GoldNuggetZelas> chang chang
-[21:25:51] [Server thread/INFO]: <GoldNuggetZelas> you ge xiao hei
-[21:26:02] [Server thread/INFO]: <GoldNuggetZelas> wo hai pa
-[21:26:12] [Server thread/INFO]: <Rebooorn> underground?
-[21:26:22] [Server thread/INFO]: <GoldNuggetZelas> xiaoshi le
-[21:26:25] [Server thread/INFO]: <GoldNuggetZelas> shi a
-[21:27:04] [Server thread/INFO]: <Rebooorn> hhh
-[21:27:08] [Server thread/INFO]: <Rebooorn> gan ta
-[21:27:14] [Server thread/INFO]: <Rebooorn> haiyou
-[21:27:30] [Server thread/INFO]: <Rebooorn> ni zen me ba dongxi dai hui lai
-[21:27:40] [Server thread/INFO]: <GoldNuggetZelas> wo you ban fa
-[21:27:57] [Server thread/INFO]: GoldNuggetZelas was slain by Enderman
-[21:28:09] [Server thread/INFO]: <GoldNuggetZelas> bei xiao hei gan si le
-[21:29:15] [Server thread/INFO]: <Rebooorn> hhh
-[21:30:47] [Server thread/INFO]: GoldNuggetZelas was slain by Enderman
-[21:31:03] [Server thread/INFO]: <GoldNuggetZelas> shuo haode bu zhu dong gongji ne
-[21:31:21] [Server thread/INFO]: <Rebooorn> wo lu d
-[21:31:46] [Server thread/INFO]: <Rebooorn> where r your gettings?
-[21:35:57] [Server thread/INFO]: <GoldNuggetZelas> dai hui lai bu shao hao dongxi
-[21:36:25] [Server thread/INFO]: <Rebooorn> ?
-[21:36:33] [Server thread/INFO]: <GoldNuggetZelas> you jin kuang
-[21:37:13] [Server thread/INFO]: <Rebooorn> wo zai wa coal
-[21:37:20] [Server thread/INFO]: <GoldNuggetZelas> jia li you
-[21:39:54] [Server thread/INFO]: GoldNuggetZelas fell from a high place
-[21:42:19] [Server thread/INFO]: <Rebooorn> da ku cha hhh
-[21:42:39] [Server thread/INFO]: <GoldNuggetZelas> shenm
-[21:43:09] [Server thread/INFO]: <Rebooorn> ni yi zhi si a
-[21:43:22] [Server thread/INFO]: <GoldNuggetZelas> >,<
-[21:43:27] [Server thread/INFO]: <Rebooorn> dou bu yong chi dong xi
-[21:45:24] [Server thread/INFO]: <GoldNuggetZelas> chang chang wo qu zhao yang
-[21:46:10] [Server thread/INFO]: <Rebooorn> qu a
-[21:46:23] [Server thread/INFO]: <GoldNuggetZelas> shiwu
-[21:46:37] [Server thread/INFO]: <Rebooorn> hungry?
-[21:46:49] [Server thread/INFO]: <GoldNuggetZelas> youdian
-[21:46:57] [Server thread/INFO]: <Rebooorn> me too
-[21:47:06] [Server thread/INFO]: <Rebooorn> i want to eat paomian
-[21:47:19] [Server thread/INFO]: <GoldNuggetZelas> wo gang chi wan
-[21:49:46] [Server thread/INFO]: <GoldNuggetZelas> xia si bao bao le
-[21:50:58] [Server thread/INFO]: GoldNuggetZelas was shot by Skeleton
-[21:51:22] [Server thread/INFO]: <Rebooorn> hhh
-[21:53:04] [Server thread/INFO]: <Rebooorn> 我要睡觉了
-[21:53:04] [Server thread/INFO]: <GoldNuggetZelas> wo yao qu zhao yang le
-[21:53:15] [Server thread/INFO]: <GoldNuggetZelas> wan an chang chang
-[21:53:20] [Server thread/INFO]: <GoldNuggetZelas> ni zenme neng dazi de
-[21:53:30] [Server thread/INFO]: <Rebooorn> 可以打中文的
-[21:53:38] [Server thread/INFO]: <GoldNuggetZelas> hao shenqi
-[21:53:52] [Server thread/INFO]: <Rebooorn> 按t再换输入法
-[21:55:07] [Server thread/INFO]: <GoldNuggetZelas> w hai shi buxing
-[21:55:11] [Server thread/INFO]: <GoldNuggetZelas> wo yong de mac
-[21:55:22] [Server thread/INFO]: <Rebooorn> 哈哈哈
-[21:55:27] [Server thread/INFO]: <GoldNuggetZelas> water can be used as elevator
-[21:55:42] [Server thread/INFO]: <Rebooorn> 知道的，我先睡觉了
-[21:55:46] [Server thread/INFO]: <GoldNuggetZelas> haode wanan
-[21:56:11] [Server thread/INFO]: <Rebooorn> next time with industry mod?
-[21:56:15] [Server thread/INFO]: <GoldNuggetZelas> hao a
-[21:56:32] [Server thread/INFO]: <Rebooorn> 不然觉得就是挖矿没意思
-[21:56:54] [Server thread/INFO]: <Rebooorn> baibai
-[21:56:58] [Server thread/INFO]: <GoldNuggetZelas> keyi yong tp mingling
-[21:57:09] [Server thread/INFO]: <GoldNuggetZelas> tp GoldNuggetZelas Rebooorn
-[21:57:25] [Server thread/INFO]: Rebooorn lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[21:57:25] [Server thread/INFO]: Rebooorn left the game
-[21:57:26] [Server thread/INFO]: <GoldNuggetZelas> jing ran buxing
-[21:58:40] [Server thread/INFO]: GoldNuggetZelas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[21:58:40] [Server thread/INFO]: GoldNuggetZelas left the game
+[00:52:54] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[00:52:54] [Server thread/INFO]: Loading properties
+[00:52:54] [Server thread/INFO]: Default game type: SURVIVAL
+[00:52:54] [Server thread/INFO]: Generating keypair
+[00:52:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:52:54] [Server thread/INFO]: Using epoll channel type
+[00:52:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:52:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:52:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:52:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:52:54] [Server thread/INFO]: Preparing level "world"
+[00:52:55] [Server thread/INFO]: Preparing start region for level 0
+[00:52:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:52:57] [Server thread/INFO]: Preparing spawn area: 45%
+[00:52:58] [Server thread/INFO]: Done (3.208s)! For help, type "help" or "?"
+[02:12:11] [Server thread/INFO]: GoldNuggetZelas[/128.195.96.202:1281] logged in with entity id 135 at (12.844354086086636, 70.0, 413.1044003280575)
+[02:12:11] [Server thread/INFO]: GoldNuggetZelas joined the game
+[02:16:41] [Server thread/INFO]: GoldNuggetZelas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:16:41] [Server thread/INFO]: GoldNuggetZelas left the game
+[04:11:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 451480ms behind, skipping 9029 tick(s)
+[04:11:43] [Server Watchdog/FATAL]: A single server tick took 451.48 seconds (should be max 0.05)
+[04:11:43] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[04:11:43] [Server Shutdown Thread/INFO]: Stopping server
+[04:11:43] [Server Shutdown Thread/INFO]: Saving players
+[04:11:43] [Server Shutdown Thread/INFO]: Saving worlds
+[04:11:43] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
