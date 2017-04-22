@@ -16,3 +16,5 @@
 8. Go to multiplay and connect to the server.
 9. Let's play!
 
+## Instant Massive Mod Notice
+A new mod used to build the building struture quickly has been added. Maybe you should update your mods folder.
