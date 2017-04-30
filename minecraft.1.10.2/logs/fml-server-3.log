@@ -1,487 +1,468 @@
-[06:07:27] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[06:07:27] [main/INFO] [FML/]: Forge Mod Loader version 12.18.3.2281 for Minecraft 1.10.2 loading
-[06:07:27] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_121, running on Linux:amd64:4.4.0-72-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[06:07:27] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
-[06:07:27] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-[06:07:27] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
-[06:07:27] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[06:07:27] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[06:07:27] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[06:07:27] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[06:07:27] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[06:07:27] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[06:07:27] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/ubuntu/minecraftServer/minecraft.1.10.2/.
-[06:07:27] [main/INFO] [FML/]: Failed to find the specified repository root /home/edward/Documents/Minecraft/minecraft.1.10.2/libraries
-[06:07:27] [main/DEBUG] [FML/]: Discovering coremods
-[06:07:27] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:27] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CodeChickenLib-1.10.2-2.5.2.198-universal.jar, it will be examined later for regular @Mod instances
-[06:07:27] [main/DEBUG] [FML/]: Instantiating coremod class CCLCorePlugin
-[06:07:30] [main/WARN] [FML/]: The coremod codechicken.lib.asm.CCLCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[06:07:30] [main/DEBUG] [FML/]: Enqueued coremod CCLCorePlugin
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy dooglamoocitiesmod-1.10.2-1.2.8.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in dooglamoocitiesmod-1.10.2-1.2.8.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy ExtremeReactors-1.10.2-0.4.5.28.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in ExtremeReactors-1.10.2-0.4.5.28.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy gregtech-5.10.41.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in gregtech-5.10.41.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy HealthBar-1.9.4-1.0.5-17.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in HealthBar-1.9.4-1.0.5-17.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.6.188-ex110.jar
-[06:07:30] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.6.188-ex110.jar, it will be examined later for regular @Mod instances
-[06:07:30] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
-[06:07:30] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[06:07:30] [main/DEBUG] [FML/]: Enqueued coremod IC2core
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy Neat 1.3-11.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in Neat 1.3-11.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy Wawla-1.10.2-2.3.0.206.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in Wawla-1.10.2-2.3.0.206.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
-[06:07:30] [main/DEBUG] [FML/]: Examining for coremod candidacy zerocore-1.10.2-0.1.0.5.jar
-[06:07:30] [main/DEBUG] [FML/]: Not found coremod data in zerocore-1.10.2-0.1.0.5.jar
-[06:07:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:07:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[06:07:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:07:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:07:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:07:30] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
-[06:07:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[06:07:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[06:07:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[06:07:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[06:07:30] [main/DEBUG] [FML/]: Injection complete
-[06:07:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
-[06:07:30] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[06:07:31] [main/DEBUG] [FML/]: Read 914 binary patches
-[06:07:32] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.10.2.lzma with 32371 records
-[06:07:32] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[06:07:32] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[06:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:07:32] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[06:07:32] [main/DEBUG] [FML/]: Injection complete
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[06:07:32] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[06:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:07:32] [main/DEBUG] [FML/]: Injecting coremod CCLCorePlugin {codechicken.lib.asm.CCLCorePlugin} class transformers
-[06:07:32] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
-[06:07:32] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.BlockStateLoaderTransformer
-[06:07:32] [main/DEBUG] [FML/]: Injection complete
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin for CCLCorePlugin {codechicken.lib.asm.CCLCorePlugin}
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin CCLCorePlugin
-[06:07:32] [main/DEBUG] [FML/]: Coremod plugin class CCLCorePlugin run successfully
-[06:07:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:07:32] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
-[06:07:32] [main/DEBUG] [FML/]: Injection complete
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
-[06:07:32] [main/DEBUG] [FML/]: Running coremod plugin IC2core
-[06:07:33] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
-[06:07:33] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
-[06:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[06:07:33] [main/DEBUG] [FML/]: Loaded 195 rules from AccessTransformer config file forge_at.cfg
-[06:07:33] [main/DEBUG] [FML/]: Loaded 2 rules from AccessTransformer mod jar file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/Wawla-1.10.2-2.3.0.206.jar!META-INF/wawla_at.cfg
+[19:42:40] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:42:40] [main/INFO] [FML/]: Forge Mod Loader version 12.18.3.2281 for Minecraft 1.10.2 loading
+[19:42:40] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_121, running on Linux:amd64:4.4.0-75-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[19:42:40] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
+[19:42:40] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[19:42:40] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[19:42:41] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[19:42:41] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:42:41] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[19:42:41] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[19:42:41] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[19:42:41] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[19:42:41] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/ubuntu/minecraftServer/minecraft.1.10.2/.
+[19:42:41] [main/INFO] [FML/]: Failed to find the specified repository root /home/edward/Documents/Minecraft/minecraft.1.10.2/libraries
+[19:42:41] [main/DEBUG] [FML/]: Discovering coremods
+[19:42:41] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:41] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CodeChickenLib-1.10.2-2.5.2.198-universal.jar, it will be examined later for regular @Mod instances
+[19:42:41] [main/DEBUG] [FML/]: Instantiating coremod class CCLCorePlugin
+[19:42:43] [main/WARN] [FML/]: The coremod codechicken.lib.asm.CCLCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:42:43] [main/DEBUG] [FML/]: Enqueued coremod CCLCorePlugin
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy dooglamoocitiesmod-1.10.2-1.2.8.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in dooglamoocitiesmod-1.10.2-1.2.8.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy ExtremeReactors-1.10.2-0.4.5.28.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in ExtremeReactors-1.10.2-0.4.5.28.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy HealthBar-1.9.4-1.0.5-17.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in HealthBar-1.9.4-1.0.5-17.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.6.188-ex110.jar
+[19:42:43] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.6.188-ex110.jar, it will be examined later for regular @Mod instances
+[19:42:43] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[19:42:43] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:42:43] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy Neat 1.3-11.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in Neat 1.3-11.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy Wawla-1.10.2-2.3.0.206.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in Wawla-1.10.2-2.3.0.206.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
+[19:42:43] [main/DEBUG] [FML/]: Examining for coremod candidacy zerocore-1.10.2-0.1.0.5.jar
+[19:42:43] [main/DEBUG] [FML/]: Not found coremod data in zerocore-1.10.2-0.1.0.5.jar
+[19:42:43] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:42:43] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:42:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:42:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:42:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:42:43] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[19:42:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[19:42:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[19:42:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:42:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[19:42:43] [main/DEBUG] [FML/]: Injection complete
+[19:42:43] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[19:42:43] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[19:42:45] [main/DEBUG] [FML/]: Read 914 binary patches
+[19:42:46] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.10.2.lzma with 32371 records
+[19:42:47] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:42:47] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[19:42:47] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:42:47] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[19:42:47] [main/DEBUG] [FML/]: Injection complete
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[19:42:47] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[19:42:47] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:42:47] [main/DEBUG] [FML/]: Injecting coremod CCLCorePlugin {codechicken.lib.asm.CCLCorePlugin} class transformers
+[19:42:47] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[19:42:47] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.BlockStateLoaderTransformer
+[19:42:47] [main/DEBUG] [FML/]: Injection complete
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin for CCLCorePlugin {codechicken.lib.asm.CCLCorePlugin}
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin CCLCorePlugin
+[19:42:47] [main/DEBUG] [FML/]: Coremod plugin class CCLCorePlugin run successfully
+[19:42:47] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:42:47] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
+[19:42:47] [main/DEBUG] [FML/]: Injection complete
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
+[19:42:47] [main/DEBUG] [FML/]: Running coremod plugin IC2core
+[19:42:47] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
+[19:42:47] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
+[19:42:47] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:42:47] [main/DEBUG] [FML/]: Loaded 195 rules from AccessTransformer config file forge_at.cfg
+[19:42:47] [main/DEBUG] [FML/]: Loaded 2 rules from AccessTransformer mod jar file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/Wawla-1.10.2-2.3.0.206.jar!META-INF/wawla_at.cfg
 
-[06:07:33] [main/DEBUG] [FML/]: Loaded 36 rules from AccessTransformer mod jar file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/CodeChickenLib-1.10.2-2.5.2.198-universal.jar!META-INF/ccl_at.cfg
+[19:42:47] [main/DEBUG] [FML/]: Loaded 36 rules from AccessTransformer mod jar file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/CodeChickenLib-1.10.2-2.5.2.198-universal.jar!META-INF/ccl_at.cfg
 
-[06:07:33] [main/DEBUG] [FML/]: Validating minecraft
-[06:07:33] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[06:07:33] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[06:07:33] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[06:07:34] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[06:07:39] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
-[06:07:39] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
-[06:07:40] [Server thread/INFO] [FML/]: MinecraftForge v12.18.3.2281 Initialized
-[06:07:40] [Server thread/INFO] [FML/]: Replaced 231 ore recipes
-[06:07:40] [Server thread/DEBUG] [FML/]: File /home/ubuntu/minecraftServer/minecraft.1.10.2/config/injectedDependencies.json not found. No dependencies injected
-[06:07:40] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[06:07:40] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /home/ubuntu/minecraftServer/minecraft.1.10.2/forge.jar, examining for mod candidates
-[06:07:40] [Server thread/TRACE] [FML/]: Skipping known library file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:40] [Server thread/TRACE] [FML/]: Skipping known library file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/industrialcraft-2-2.6.188-ex110.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /home/ubuntu/minecraftServer/minecraft.1.10.2/./mods/ic2/EJML-core-0.26.jar, examining for mod candidates
-[06:07:40] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[06:07:40] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[06:07:40] [Server thread/INFO] [FML/]: Searching /home/ubuntu/minecraftServer/minecraft.1.10.2/mods for mods
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file dooglamoocitiesmod-1.10.2-1.2.8.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ExtremeReactors-1.10.2-0.4.5.28.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file gregtech-5.10.41.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file HealthBar-1.9.4-1.0.5-17.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate mod directory ic2
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file industrialcraft-2-2.6.188-ex110.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Ignoring unknown file mod_list.json in mods directory
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Neat 1.3-11.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Wawla-1.10.2-2.3.0.206.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file zerocore-1.10.2-0.1.0.5.jar
-[06:07:40] [Server thread/DEBUG] [FML/]: Examining file forge.jar for potential mods
-[06:07:40] [Server thread/DEBUG] [FML/]: The mod container forge.jar appears to be missing an mcmod.info file
-[06:07:41] [Server thread/DEBUG] [FML/]: Examining file EJML-core-0.26.jar for potential mods
-[06:07:41] [Server thread/DEBUG] [FML/]: The mod container EJML-core-0.26.jar appears to be missing an mcmod.info file
-[06:07:41] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.10.2-2.5.2.198-universal.jar for potential mods
-[06:07:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (codechicken.lib.CodeChickenLib) - loading
-[06:07:41] [Server thread/WARN] [FML/]: ****************************************
-[06:07:41] [Server thread/WARN] [FML/]: * The modid CodeChickenLib is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
-[06:07:41] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
-[06:07:41] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
-[06:07:41] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[06:07:41] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[06:07:41] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[06:07:41] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
-[06:07:41] [Server thread/WARN] [FML/]: ****************************************
-[06:07:41] [Server thread/TRACE] [CodeChickenLib/]: Parsed dependency info : [] [] []
-[06:07:41] [Server thread/DEBUG] [CodeChickenLib/]: Attempting to load the file version.properties from CodeChickenLib-1.10.2-2.5.2.198-universal.jar to locate a version number for CodeChickenLib
-[06:07:41] [Server thread/WARN] [CodeChickenLib/]: Mod CodeChickenLib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.5.2.198
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (codechicken.lib.render.item.EntityRendererHooks) - loading
-[06:07:42] [Server thread/TRACE] [ccl-entityhook/]: Parsed dependency info : [] [] [*]
-[06:07:42] [Server thread/INFO] [ccl-entityhook/]: Mod ccl-entityhook is missing the required element 'name'. Substituting ccl-entityhook
-[06:07:42] [Server thread/DEBUG] [ccl-entityhook/]: Attempting to load the file version.properties from CodeChickenLib-1.10.2-2.5.2.198-universal.jar to locate a version number for ccl-entityhook
-[06:07:42] [Server thread/WARN] [ccl-entityhook/]: Mod ccl-entityhook is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining file dooglamoocitiesmod-1.10.2-1.2.8.jar for potential mods
-[06:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file dooglamoocitiesmod-1.10.2-1.2.8.jar
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.dooglamoo.citiesmod.CitiesMod) - loading
-[06:07:42] [Server thread/TRACE] [dooglamoocitiesmod/]: Parsed dependency info : [] [] []
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining file ExtremeReactors-1.10.2-0.4.5.28.jar for potential mods
-[06:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ExtremeReactors-1.10.2-0.4.5.28.jar
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (erogenousbeef.bigreactors.common.BigReactors) - loading
-[06:07:42] [Server thread/TRACE] [bigreactors/]: Parsed dependency info : [zerocore@[1.10.2-0.1.0.5,), Forge@[12.18.2.2122,)] [Forge@[12.18.2.2122,), zerocore@[1.10.2-0.1.0.5,)] []
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining file gregtech-5.10.41.jar for potential mods
-[06:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file gregtech-5.10.41.jar
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (gregtech.GT_Mod) - loading
-[06:07:42] [Server thread/TRACE] [gregtech/]: Parsed dependency info : [CodeChickenLib, IC2] [IC2, CodeChickenLib, Forestry, PFAAGeologica, Thaumcraft, Railcraft, appliedenergistics2, ThermalExpansion, TwilightForest, harvestcraft, magicalcrops, BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Factory, BuildCraft|Energy, BuildCraft|Core, BuildCraft|Builders, GalacticraftCore, GalacticraftMars, GalacticraftPlanets, ThermalExpansion|Transport, ThermalExpansion|Energy, ThermalExpansion|Factory, RedPowerCore, RedPowerBase, RedPowerMachine, RedPowerCompat, RedPowerWiring, RedPowerLogic, RedPowerLighting, RedPowerWorld, RedPowerControl, UndergroundBiomes] []
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining file HealthBar-1.9.4-1.0.5-17.jar for potential mods
-[06:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file HealthBar-1.9.4-1.0.5-17.jar
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.silentchaos512.hpbar.HealthBar) - loading
-[06:07:42] [Server thread/WARN] [FML/]: ****************************************
-[06:07:42] [Server thread/WARN] [FML/]: * The modid HealthBar is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
-[06:07:42] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
-[06:07:42] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[06:07:42] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
-[06:07:42] [Server thread/WARN] [FML/]: ****************************************
-[06:07:42] [Server thread/TRACE] [HealthBar/]: Parsed dependency info : [] [] []
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
-[06:07:42] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
-[06:07:42] [Server thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.6.188-ex110.jar for potential mods
-[06:07:42] [Server thread/TRACE] [FML/]: Located mcmod.info file in file industrialcraft-2-2.6.188-ex110.jar
-[06:07:42] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (ic2.core.IC2) - loading
-[06:07:42] [Server thread/WARN] [FML/]: ****************************************
-[06:07:42] [Server thread/WARN] [FML/]: * The modid IC2 is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
-[06:07:42] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
-[06:07:42] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[06:07:42] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[06:07:42] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
-[06:07:42] [Server thread/WARN] [FML/]: ****************************************
-[06:07:42] [Server thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[12.17.0.1940,)] [Forge@[12.17.0.1940,)] []
-[06:07:43] [Server thread/DEBUG] [FML/]: Examining file Neat 1.3-11.jar for potential mods
-[06:07:43] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Neat 1.3-11.jar
-[06:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (vazkii.neat.Neat) - loading
-[06:07:43] [Server thread/WARN] [FML/]: ****************************************
-[06:07:43] [Server thread/WARN] [FML/]: * The modid Neat is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
-[06:07:43] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
-[06:07:43] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[06:07:43] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
-[06:07:43] [Server thread/WARN] [FML/]: ****************************************
-[06:07:43] [Server thread/INFO] [FML/]: Disabling mod Neat it is client side only.
-[06:07:43] [Server thread/DEBUG] [FML/]: Skipping mod vazkii.neat.Neat, container opted to not load.
-[06:07:43] [Server thread/DEBUG] [FML/]: Examining file Wawla-1.10.2-2.3.0.206.jar for potential mods
-[06:07:43] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Wawla-1.10.2-2.3.0.206.jar
-[06:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.icse.ICSE) - loading
-[06:07:43] [Server thread/TRACE] [icse/]: Parsed dependency info : [] [Waila] []
-[06:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.wawla.Wawla) - loading
-[06:07:43] [Server thread/TRACE] [wawla/]: Parsed dependency info : [] [icse] []
-[06:07:43] [Server thread/DEBUG] [FML/]: Examining file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar for potential mods
-[06:07:43] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
-[06:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (xaero.minimap.XaeroMinimap) - loading
-[06:07:43] [Server thread/WARN] [FML/]: ****************************************
-[06:07:43] [Server thread/WARN] [FML/]: * The modid XaeroMinimap is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
-[06:07:43] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
-[06:07:43] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[06:07:43] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[06:07:43] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
-[06:07:43] [Server thread/WARN] [FML/]: ****************************************
-[06:07:43] [Server thread/INFO] [FML/]: Disabling mod XaeroMinimap it is client side only.
-[06:07:43] [Server thread/DEBUG] [FML/]: Skipping mod xaero.minimap.XaeroMinimap, container opted to not load.
-[06:07:43] [Server thread/DEBUG] [FML/]: Examining file zerocore-1.10.2-0.1.0.5.jar for potential mods
-[06:07:43] [Server thread/TRACE] [FML/]: Located mcmod.info file in file zerocore-1.10.2-0.1.0.5.jar
-[06:07:43] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (it.zerono.mods.zerocore.internal.ZeroCore) - loading
-[06:07:43] [Server thread/TRACE] [zerocore/]: Parsed dependency info : [Forge@[12.18.2.2122,)] [Forge@[12.18.2.2122,), cofhcore] []
-[06:07:43] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 13 mods to load
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.item (owned by cofhapi providing cofhapi|item) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.block (owned by cofhapi providing cofhapi|block) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.core (owned by cofhapi providing cofhapi|core) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by cofhapi providing cofhapi|energy) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.util (owned by cofhapi providing cofhapi|util) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by cofhapi providing cofhapi|tileentity) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API erogenousbeef.bigreactors.api (owned by bigreactors providing bigreactors|API) embedded in bigreactors
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by cofhlib providing cofhapi) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock.validation (owned by zerocore providing zerocore|API|multiblock|validation) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock (owned by zerocore providing zerocore|API|multiblock) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock.rectangular (owned by zerocore providing zerocore|API|multiblock|rectangular) embedded in zerocore
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Lua: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|block:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|block: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|core:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|core: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|item:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|item: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock|validation: owner: zerocore, dependents: []
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi: owner: cofhlib, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API bigreactors|API: owner: bigreactors, dependents: []
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Peripheral: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Redstone: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock: owner: zerocore, dependents: []
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|FileSystem: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock|rectangular: owner: zerocore, dependents: []
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Permissions: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|energy:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|energy: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|tileentity:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|tileentity: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|util:1.6.0}
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|util: owner: cofhapi, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Turtle: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Media: owner: ComputerCraft, dependents: [zerocore]
-[06:07:43] [Server thread/TRACE] [FML/]: Received a system property request ''
-[06:07:43] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[06:07:43] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[06:07:43] [Server thread/DEBUG] [CodeChickenLib/]: Enabling mod CodeChickenLib
-[06:07:43] [Server thread/DEBUG] [ccl-entityhook/]: Enabling mod ccl-entityhook
-[06:07:43] [Server thread/DEBUG] [dooglamoocitiesmod/]: Enabling mod dooglamoocitiesmod
-[06:07:43] [Server thread/DEBUG] [bigreactors/]: Enabling mod bigreactors
-[06:07:43] [Server thread/DEBUG] [gregtech/]: Enabling mod gregtech
-[06:07:43] [Server thread/DEBUG] [HealthBar/]: Enabling mod HealthBar
-[06:07:43] [Server thread/DEBUG] [IC2/]: Enabling mod IC2
-[06:07:43] [Server thread/DEBUG] [icse/]: Enabling mod icse
-[06:07:43] [Server thread/DEBUG] [wawla/]: Enabling mod wawla
-[06:07:43] [Server thread/DEBUG] [zerocore/]: Enabling mod zerocore
-[06:07:43] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[06:07:43] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
-[06:07:43] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
-[06:07:43] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
-[06:07:43] [Server thread/DEBUG] [FML/]: Mod sorting data
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ccl-entityhook(ccl-entityhook:1.0): CodeChickenLib-1.10.2-2.5.2.198-universal.jar (before:*)
-[06:07:43] [Server thread/DEBUG] [FML/]: 	CodeChickenLib(CodeChicken Lib:2.5.2.198): CodeChickenLib-1.10.2-2.5.2.198-universal.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	dooglamoocitiesmod(Dooglamoo Cities:1.10.2-1.2.8): dooglamoocitiesmod-1.10.2-1.2.8.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Lua(API: ComputerCraft|API|Lua:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi(API: cofhapi:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|block(API: cofhapi|block:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|core(API: cofhapi|core:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|item(API: cofhapi|item:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API(API: ComputerCraft|API:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Peripheral(API: ComputerCraft|API|Peripheral:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Redstone(API: ComputerCraft|API|Redstone:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|FileSystem(API: ComputerCraft|API|FileSystem:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Permissions(API: ComputerCraft|API|Permissions:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|energy(API: cofhapi|energy:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|tileentity(API: cofhapi|tileentity:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	cofhapi|util(API: cofhapi|util:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Turtle(API: ComputerCraft|API|Turtle:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Media(API: ComputerCraft|API|Media:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	zerocore(Zero CORE:1.10.2-0.1.0.5): zerocore-1.10.2-0.1.0.5.jar (required-after:Forge@[12.18.2.2122,); after:cofhcore)
-[06:07:43] [Server thread/DEBUG] [FML/]: 	bigreactors(Extreme Reactors:1.10.2-0.4.5.28): ExtremeReactors-1.10.2-0.4.5.28.jar (required-after:Forge@[12.18.2.2122,);required-after:zerocore@[1.10.2-0.1.0.5,))
-[06:07:43] [Server thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.6.188-ex110): industrialcraft-2-2.6.188-ex110.jar (required-after:Forge@[12.17.0.1940,))
-[06:07:43] [Server thread/DEBUG] [FML/]: 	gregtech(GregTech:MC1.10.2): gregtech-5.10.41.jar (required-after:IC2; required-after:CodeChickenLib; after:Forestry; after:PFAAGeologica; after:Thaumcraft; after:Railcraft; after:appliedenergistics2; after:ThermalExpansion; after:TwilightForest; after:harvestcraft; after:magicalcrops; after:BuildCraft|Transport; after:BuildCraft|Silicon; after:BuildCraft|Factory; after:BuildCraft|Energy; after:BuildCraft|Core; after:BuildCraft|Builders; after:GalacticraftCore; after:GalacticraftMars; after:GalacticraftPlanets; after:ThermalExpansion|Transport; after:ThermalExpansion|Energy; after:ThermalExpansion|Factory; after:RedPowerCore; after:RedPowerBase; after:RedPowerMachine; after:RedPowerCompat; after:RedPowerWiring; after:RedPowerLogic; after:RedPowerLighting; after:RedPowerWorld; after:RedPowerControl; after:UndergroundBiomes;)
-[06:07:43] [Server thread/DEBUG] [FML/]: 	HealthBar(Health Bar:1.0.5): HealthBar-1.9.4-1.0.5-17.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	icse(I Can See Everything:1.1.0.0): Wawla-1.10.2-2.3.0.206.jar (after:Waila)
-[06:07:43] [Server thread/DEBUG] [FML/]: 	wawla(What Are We Looking At:2.3.0.202): Wawla-1.10.2-2.3.0.206.jar (after:icse)
-[06:07:43] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock|validation(API: zerocore|API|multiblock|validation:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	bigreactors|API(API: bigreactors|API:4.0.1): ExtremeReactors-1.10.2-0.4.5.28.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock(API: zerocore|API|multiblock:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock|rectangular(API: zerocore|API|multiblock|rectangular:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
-[06:07:43] [Server thread/INFO] [FML/]: FML has found a non-mod file Neat 1.3-11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[06:07:43] [Server thread/INFO] [FML/]: FML has found a non-mod file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[06:07:43] [Server thread/DEBUG] [FML/]: Loading @Config anotation data
-[06:07:43] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[06:07:43] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[06:07:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
-[06:07:43] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[06:07:43] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[06:07:43] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[06:07:43] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
-[06:07:43] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenLib, ccl-entityhook, dooglamoocitiesmod, bigreactors, gregtech, HealthBar, IC2, icse, wawla, zerocore] at CLIENT
-[06:07:43] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenLib, ccl-entityhook, dooglamoocitiesmod, bigreactors, gregtech, HealthBar, IC2, icse, wawla, zerocore] at SERVER
-[06:07:44] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.621s
-[06:07:44] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[06:07:44] [Server thread/DEBUG] [Forge/Forge]: Preloading CrashReport Classes
-[06:07:44] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[06:07:44] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[06:07:44] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/Loader$3
-[06:07:44] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[06:07:44] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (12.18.3.2281)
-[06:07:44] [Server thread/DEBUG] [FML/Forge]: Attempting to inject @Config classes into Forge for type INSTANCE
-[06:07:44] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.024s
-[06:07:44] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLConstructionEvent to mod ccl-entityhook
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: Preloading CrashReport Classes
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/fingerprint/FingerprintViolatedCrashCallable
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$1
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$2
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$3
-[06:07:44] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$4
-[06:07:44] [Server thread/TRACE] [FML/ccl-entityhook]: Mod ccl-entityhook is using network checker : Accepting version 1.0
-[06:07:44] [Server thread/TRACE] [FML/ccl-entityhook]: Testing mod ccl-entityhook to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/ccl-entityhook]: The mod ccl-entityhook accepts its own version (1.0)
-[06:07:44] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @SidedProxy classes into ccl-entityhook
-[06:07:44] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @EventBusSubscriber classes into the eventbus for ccl-entityhook
-[06:07:44] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @Config classes into ccl-entityhook for type INSTANCE
-[06:07:44] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLConstructionEvent to mod ccl-entityhook
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - ccl-entityhook took 0.045s
-[06:07:44] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLConstructionEvent to mod CodeChickenLib
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: Preloading CrashReport Classes
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/fingerprint/FingerprintViolatedCrashCallable
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$1
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$2
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$3
-[06:07:44] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$4
-[06:07:44] [Server thread/TRACE] [FML/CodeChickenLib]: Mod CodeChickenLib is using network checker : Accepting version 2.5.2.198
-[06:07:44] [Server thread/TRACE] [FML/CodeChickenLib]: Testing mod CodeChickenLib to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/CodeChickenLib]: The mod CodeChickenLib accepts its own version (2.5.2.198)
-[06:07:44] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @SidedProxy classes into CodeChickenLib
-[06:07:44] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @EventBusSubscriber classes into the eventbus for CodeChickenLib
-[06:07:44] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @Config classes into CodeChickenLib for type INSTANCE
-[06:07:44] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLConstructionEvent to mod CodeChickenLib
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CodeChicken Lib took 0.009s
-[06:07:44] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLConstructionEvent to mod dooglamoocitiesmod
-[06:07:44] [Server thread/TRACE] [FML/dooglamoocitiesmod]: Mod dooglamoocitiesmod is using network checker : No network checking performed
-[06:07:44] [Server thread/TRACE] [FML/dooglamoocitiesmod]: Testing mod dooglamoocitiesmod to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/dooglamoocitiesmod]: The mod dooglamoocitiesmod accepts its own version (1.10.2-1.2.8)
-[06:07:44] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @SidedProxy classes into dooglamoocitiesmod
-[06:07:44] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @EventBusSubscriber classes into the eventbus for dooglamoocitiesmod
-[06:07:44] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @Config classes into dooglamoocitiesmod for type INSTANCE
-[06:07:44] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLConstructionEvent to mod dooglamoocitiesmod
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Dooglamoo Cities took 0.075s
-[06:07:44] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLConstructionEvent to mod zerocore
-[06:07:44] [Server thread/TRACE] [FML/zerocore]: Mod zerocore is using network checker : Accepting version 1.10.2-0.1.0.5
-[06:07:44] [Server thread/TRACE] [FML/zerocore]: Testing mod zerocore to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/zerocore]: The mod zerocore accepts its own version (1.10.2-0.1.0.5)
-[06:07:44] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @SidedProxy classes into zerocore
-[06:07:44] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @EventBusSubscriber classes into the eventbus for zerocore
-[06:07:44] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @Config classes into zerocore for type INSTANCE
-[06:07:44] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLConstructionEvent to mod zerocore
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Zero CORE took 0.025s
-[06:07:44] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLConstructionEvent to mod bigreactors
-[06:07:44] [Server thread/TRACE] [FML/bigreactors]: Mod bigreactors is using network checker : Accepting version 1.10.2-0.4.5.28
-[06:07:44] [Server thread/TRACE] [FML/bigreactors]: Testing mod bigreactors to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/bigreactors]: The mod bigreactors accepts its own version (1.10.2-0.4.5.28)
-[06:07:44] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @SidedProxy classes into bigreactors
-[06:07:44] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @EventBusSubscriber classes into the eventbus for bigreactors
-[06:07:44] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @Config classes into bigreactors for type INSTANCE
-[06:07:44] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLConstructionEvent to mod bigreactors
-[06:07:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Extreme Reactors took 0.061s
-[06:07:44] [Server thread/TRACE] [IC2/IC2]: Sending event FMLConstructionEvent to mod IC2
-[06:07:44] [Server thread/TRACE] [FML/IC2]: Mod IC2 is using network checker : Accepting version 2.6.188-ex110
-[06:07:44] [Server thread/TRACE] [FML/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection
-[06:07:44] [Server thread/TRACE] [FML/IC2]: The mod IC2 accepts its own version (2.6.188-ex110)
-[06:07:44] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @SidedProxy classes into IC2
-[06:07:45] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @EventBusSubscriber classes into the eventbus for IC2
-[06:07:45] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @Config classes into IC2 for type INSTANCE
-[06:07:45] [Server thread/TRACE] [IC2/IC2]: Sent event FMLConstructionEvent to mod IC2
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - IndustrialCraft 2 took 0.374s
-[06:07:45] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLConstructionEvent to mod gregtech
-[06:07:45] [Server thread/TRACE] [FML/gregtech]: Mod gregtech is using network checker : Accepting version MC1.10.2
-[06:07:45] [Server thread/TRACE] [FML/gregtech]: Testing mod gregtech to verify it accepts its own version in a remote connection
-[06:07:45] [Server thread/TRACE] [FML/gregtech]: The mod gregtech accepts its own version (MC1.10.2)
-[06:07:45] [Server thread/DEBUG] [FML/gregtech]: Attempting to inject @SidedProxy classes into gregtech
-[06:07:45] [Server thread/DEBUG] [FML/gregtech]: Attempting to inject @EventBusSubscriber classes into the eventbus for gregtech
-[06:07:45] [Server thread/DEBUG] [FML/gregtech]: Attempting to inject @Config classes into gregtech for type INSTANCE
-[06:07:45] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLConstructionEvent to mod gregtech
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - GregTech took 0.230s
-[06:07:45] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLConstructionEvent to mod HealthBar
-[06:07:45] [Server thread/TRACE] [FML/HealthBar]: Mod HealthBar is using network checker : Accepting version 1.0.5
-[06:07:45] [Server thread/TRACE] [FML/HealthBar]: Testing mod HealthBar to verify it accepts its own version in a remote connection
-[06:07:45] [Server thread/TRACE] [FML/HealthBar]: The mod HealthBar accepts its own version (1.0.5)
-[06:07:45] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @SidedProxy classes into HealthBar
-[06:07:45] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @EventBusSubscriber classes into the eventbus for HealthBar
-[06:07:45] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @Config classes into HealthBar for type INSTANCE
-[06:07:45] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLConstructionEvent to mod HealthBar
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Health Bar took 0.013s
-[06:07:45] [Server thread/TRACE] [icse/icse]: Sending event FMLConstructionEvent to mod icse
-[06:07:45] [Server thread/TRACE] [FML/icse]: Mod icse is using network checker : No network checking performed
-[06:07:45] [Server thread/TRACE] [FML/icse]: Testing mod icse to verify it accepts its own version in a remote connection
-[06:07:45] [Server thread/TRACE] [FML/icse]: The mod icse accepts its own version (1.1.0.0)
-[06:07:45] [Server thread/DEBUG] [FML/icse]: Attempting to inject @SidedProxy classes into icse
-[06:07:45] [Server thread/DEBUG] [FML/icse]: Attempting to inject @EventBusSubscriber classes into the eventbus for icse
-[06:07:45] [Server thread/DEBUG] [FML/icse]: Attempting to inject @Config classes into icse for type INSTANCE
-[06:07:45] [Server thread/TRACE] [icse/icse]: Sent event FMLConstructionEvent to mod icse
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - I Can See Everything took 0.021s
-[06:07:45] [Server thread/TRACE] [wawla/wawla]: Sending event FMLConstructionEvent to mod wawla
-[06:07:45] [Server thread/TRACE] [FML/wawla]: Mod wawla is using network checker : No network checking performed
-[06:07:45] [Server thread/TRACE] [FML/wawla]: Testing mod wawla to verify it accepts its own version in a remote connection
-[06:07:45] [Server thread/TRACE] [FML/wawla]: The mod wawla accepts its own version (2.3.0.202)
-[06:07:45] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @SidedProxy classes into wawla
-[06:07:45] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @EventBusSubscriber classes into the eventbus for wawla
-[06:07:45] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @Config classes into wawla for type INSTANCE
-[06:07:45] [Server thread/TRACE] [wawla/wawla]: Sent event FMLConstructionEvent to mod wawla
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - What Are We Looking At took 0.001s
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1.500s
-[06:07:45] [Server thread/DEBUG] [FML/]: Mod signature data
-[06:07:45] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
-[06:07:45] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	12.18.3.2281)	forge.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		(f1850c39b2516232a2108a7bd84d1cb5df93b261) CodeChickenLib	(CodeChicken Lib	2.5.2.198)	CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		(de041f9f6187debbc77034a344134053277aa3b0) IC2	(IndustrialCraft 2	2.6.188-ex110)	industrialcraft-2-2.6.188-ex110.jar
-[06:07:45] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
-[06:07:45] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		ccl-entityhook	(ccl-entityhook	1.0)	CodeChickenLib-1.10.2-2.5.2.198-universal.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		dooglamoocitiesmod	(Dooglamoo Cities	1.10.2-1.2.8)	dooglamoocitiesmod-1.10.2-1.2.8.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		zerocore	(Zero CORE	1.10.2-0.1.0.5)	zerocore-1.10.2-0.1.0.5.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		bigreactors	(Extreme Reactors	1.10.2-0.4.5.28)	ExtremeReactors-1.10.2-0.4.5.28.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		gregtech	(GregTech	MC1.10.2)	gregtech-5.10.41.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		HealthBar	(Health Bar	1.0.5)	HealthBar-1.9.4-1.0.5-17.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		icse	(I Can See Everything	1.1.0.0)	Wawla-1.10.2-2.3.0.206.jar
-[06:07:45] [Server thread/DEBUG] [FML/]: 		wawla	(What Are We Looking At	2.3.0.202)	Wawla-1.10.2-2.3.0.206.jar
-[06:07:45] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[06:07:45] [Server thread/INFO] [FML/]: Found 423 ObjectHolder annotations
-[06:07:45] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[06:07:45] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[06:07:45] [Server thread/INFO] [FML/]: Applying holder lookups
-[06:07:45] [Server thread/INFO] [FML/]: Holder lookups applied
-[06:07:45] [Server thread/INFO] [FML/]: Applying holder lookups
-[06:07:45] [Server thread/INFO] [FML/]: Holder lookups applied
-[06:07:45] [Server thread/INFO] [FML/]: Applying holder lookups
-[06:07:45] [Server thread/INFO] [FML/]: Holder lookups applied
-[06:07:45] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[06:07:45] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
-[06:07:45] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[06:07:45] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.021s
-[06:07:45] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[06:07:45] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[06:07:45] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[06:07:45] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.262s
-[06:07:45] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLPreInitializationEvent to mod ccl-entityhook
-[06:07:45] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLPreInitializationEvent to mod ccl-entityhook
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - ccl-entityhook took 0.000s
-[06:07:45] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLPreInitializationEvent to mod CodeChickenLib
-[06:07:45] [Server thread/DEBUG] [CodeChickenLib Fingerprint Verification/CodeChickenLib]: Valid fingerprint found for mod CodeChickenLib.
-[06:07:45] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLPreInitializationEvent to mod CodeChickenLib
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CodeChicken Lib took 0.002s
-[06:07:45] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLPreInitializationEvent to mod dooglamoocitiesmod
-[06:07:45] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+[19:42:47] [main/DEBUG] [FML/]: Validating minecraft
+[19:42:48] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[19:42:48] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:42:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:42:48] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:42:54] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[19:42:54] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[19:42:55] [Server thread/INFO] [FML/]: MinecraftForge v12.18.3.2281 Initialized
+[19:42:55] [Server thread/INFO] [FML/]: Replaced 231 ore recipes
+[19:42:55] [Server thread/DEBUG] [FML/]: File /home/ubuntu/minecraftServer/minecraft.1.10.2/config/injectedDependencies.json not found. No dependencies injected
+[19:42:55] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[19:42:55] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /home/ubuntu/minecraftServer/minecraft.1.10.2/forge.jar, examining for mod candidates
+[19:42:55] [Server thread/TRACE] [FML/]: Skipping known library file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:55] [Server thread/TRACE] [FML/]: Skipping known library file /home/ubuntu/minecraftServer/minecraft.1.10.2/mods/industrialcraft-2-2.6.188-ex110.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /home/ubuntu/minecraftServer/minecraft.1.10.2/./mods/ic2/EJML-core-0.26.jar, examining for mod candidates
+[19:42:55] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[19:42:55] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:42:55] [Server thread/INFO] [FML/]: Searching /home/ubuntu/minecraftServer/minecraft.1.10.2/mods for mods
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file dooglamoocitiesmod-1.10.2-1.2.8.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ExtremeReactors-1.10.2-0.4.5.28.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file HealthBar-1.9.4-1.0.5-17.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate mod directory ic2
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file industrialcraft-2-2.6.188-ex110.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Ignoring unknown file mod_list.json in mods directory
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Neat 1.3-11.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Wawla-1.10.2-2.3.0.206.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file zerocore-1.10.2-0.1.0.5.jar
+[19:42:55] [Server thread/DEBUG] [FML/]: Examining file forge.jar for potential mods
+[19:42:55] [Server thread/DEBUG] [FML/]: The mod container forge.jar appears to be missing an mcmod.info file
+[19:42:56] [Server thread/DEBUG] [FML/]: Examining file EJML-core-0.26.jar for potential mods
+[19:42:56] [Server thread/DEBUG] [FML/]: The mod container EJML-core-0.26.jar appears to be missing an mcmod.info file
+[19:42:56] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.10.2-2.5.2.198-universal.jar for potential mods
+[19:42:56] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:56] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (codechicken.lib.CodeChickenLib) - loading
+[19:42:56] [Server thread/WARN] [FML/]: ****************************************
+[19:42:56] [Server thread/WARN] [FML/]: * The modid CodeChickenLib is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[19:42:56] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[19:42:56] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[19:42:56] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:42:56] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:42:56] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:42:56] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[19:42:56] [Server thread/WARN] [FML/]: ****************************************
+[19:42:56] [Server thread/TRACE] [CodeChickenLib/]: Parsed dependency info : [] [] []
+[19:42:56] [Server thread/DEBUG] [CodeChickenLib/]: Attempting to load the file version.properties from CodeChickenLib-1.10.2-2.5.2.198-universal.jar to locate a version number for CodeChickenLib
+[19:42:56] [Server thread/WARN] [CodeChickenLib/]: Mod CodeChickenLib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.5.2.198
+[19:42:56] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (codechicken.lib.render.item.EntityRendererHooks) - loading
+[19:42:56] [Server thread/TRACE] [ccl-entityhook/]: Parsed dependency info : [] [] [*]
+[19:42:56] [Server thread/INFO] [ccl-entityhook/]: Mod ccl-entityhook is missing the required element 'name'. Substituting ccl-entityhook
+[19:42:56] [Server thread/DEBUG] [ccl-entityhook/]: Attempting to load the file version.properties from CodeChickenLib-1.10.2-2.5.2.198-universal.jar to locate a version number for ccl-entityhook
+[19:42:56] [Server thread/WARN] [ccl-entityhook/]: Mod ccl-entityhook is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[19:42:56] [Server thread/DEBUG] [FML/]: Examining file dooglamoocitiesmod-1.10.2-1.2.8.jar for potential mods
+[19:42:56] [Server thread/TRACE] [FML/]: Located mcmod.info file in file dooglamoocitiesmod-1.10.2-1.2.8.jar
+[19:42:56] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.dooglamoo.citiesmod.CitiesMod) - loading
+[19:42:56] [Server thread/TRACE] [dooglamoocitiesmod/]: Parsed dependency info : [] [] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file ExtremeReactors-1.10.2-0.4.5.28.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ExtremeReactors-1.10.2-0.4.5.28.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (erogenousbeef.bigreactors.common.BigReactors) - loading
+[19:42:57] [Server thread/TRACE] [bigreactors/]: Parsed dependency info : [zerocore@[1.10.2-0.1.0.5,), Forge@[12.18.2.2122,)] [Forge@[12.18.2.2122,), zerocore@[1.10.2-0.1.0.5,)] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file HealthBar-1.9.4-1.0.5-17.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file HealthBar-1.9.4-1.0.5-17.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.silentchaos512.hpbar.HealthBar) - loading
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/WARN] [FML/]: * The modid HealthBar is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:42:57] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/TRACE] [HealthBar/]: Parsed dependency info : [] [] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
+[19:42:57] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.6.188-ex110.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file industrialcraft-2-2.6.188-ex110.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (ic2.core.IC2) - loading
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/WARN] [FML/]: * The modid IC2 is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:42:57] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[12.17.0.1940,)] [Forge@[12.17.0.1940,)] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file Neat 1.3-11.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Neat 1.3-11.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (vazkii.neat.Neat) - loading
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/WARN] [FML/]: * The modid Neat is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:42:57] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/INFO] [FML/]: Disabling mod Neat it is client side only.
+[19:42:57] [Server thread/DEBUG] [FML/]: Skipping mod vazkii.neat.Neat, container opted to not load.
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file Wawla-1.10.2-2.3.0.206.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Wawla-1.10.2-2.3.0.206.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.icse.ICSE) - loading
+[19:42:57] [Server thread/TRACE] [icse/]: Parsed dependency info : [] [Waila] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.darkhax.wawla.Wawla) - loading
+[19:42:57] [Server thread/TRACE] [wawla/]: Parsed dependency info : [] [icse] []
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (xaero.minimap.XaeroMinimap) - loading
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/WARN] [FML/]: * The modid XaeroMinimap is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[19:42:57] [Server thread/WARN] [FML/]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:42:57] [Server thread/WARN] [FML/]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:42:57] [Server thread/WARN] [FML/]: *  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)...
+[19:42:57] [Server thread/WARN] [FML/]: ****************************************
+[19:42:57] [Server thread/INFO] [FML/]: Disabling mod XaeroMinimap it is client side only.
+[19:42:57] [Server thread/DEBUG] [FML/]: Skipping mod xaero.minimap.XaeroMinimap, container opted to not load.
+[19:42:57] [Server thread/DEBUG] [FML/]: Examining file zerocore-1.10.2-0.1.0.5.jar for potential mods
+[19:42:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file zerocore-1.10.2-0.1.0.5.jar
+[19:42:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (it.zerono.mods.zerocore.internal.ZeroCore) - loading
+[19:42:57] [Server thread/TRACE] [zerocore/]: Parsed dependency info : [Forge@[12.18.2.2122,)] [Forge@[12.18.2.2122,), cofhcore] []
+[19:42:58] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 12 mods to load
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.item (owned by cofhapi providing cofhapi|item) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.block (owned by cofhapi providing cofhapi|block) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by cofhlib providing cofhapi) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock.validation (owned by zerocore providing zerocore|API|multiblock|validation) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API erogenousbeef.bigreactors.api (owned by bigreactors providing bigreactors|API) embedded in bigreactors
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock.rectangular (owned by zerocore providing zerocore|API|multiblock|rectangular) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.util (owned by cofhapi providing cofhapi|util) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API it.zerono.mods.zerocore.api.multiblock (owned by zerocore providing zerocore|API|multiblock) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.core (owned by cofhapi providing cofhapi|core) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by cofhapi providing cofhapi|energy) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by cofhapi providing cofhapi|tileentity) embedded in zerocore
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Lua: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|block:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|block: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|core:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|core: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|item:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|item: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock|validation: owner: zerocore, dependents: []
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi: owner: cofhlib, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API bigreactors|API: owner: bigreactors, dependents: []
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Peripheral: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Redstone: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock: owner: zerocore, dependents: []
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API zerocore|API|multiblock|rectangular: owner: zerocore, dependents: []
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|FileSystem: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Permissions: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|energy:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|energy: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|tileentity:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|tileentity: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Removing upstream parent cofhlib from APIContainer{cofhapi|util:1.6.0}
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API cofhapi|util: owner: cofhapi, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Turtle: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Media: owner: ComputerCraft, dependents: [zerocore]
+[19:42:58] [Server thread/TRACE] [FML/]: Received a system property request ''
+[19:42:58] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[19:42:58] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[19:42:58] [Server thread/DEBUG] [CodeChickenLib/]: Enabling mod CodeChickenLib
+[19:42:58] [Server thread/DEBUG] [ccl-entityhook/]: Enabling mod ccl-entityhook
+[19:42:58] [Server thread/DEBUG] [dooglamoocitiesmod/]: Enabling mod dooglamoocitiesmod
+[19:42:58] [Server thread/DEBUG] [bigreactors/]: Enabling mod bigreactors
+[19:42:58] [Server thread/DEBUG] [HealthBar/]: Enabling mod HealthBar
+[19:42:58] [Server thread/DEBUG] [IC2/]: Enabling mod IC2
+[19:42:58] [Server thread/DEBUG] [icse/]: Enabling mod icse
+[19:42:58] [Server thread/DEBUG] [wawla/]: Enabling mod wawla
+[19:42:58] [Server thread/DEBUG] [zerocore/]: Enabling mod zerocore
+[19:42:58] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[19:42:58] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[19:42:58] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[19:42:58] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[19:42:58] [Server thread/DEBUG] [FML/]: Mod sorting data
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ccl-entityhook(ccl-entityhook:1.0): CodeChickenLib-1.10.2-2.5.2.198-universal.jar (before:*)
+[19:42:58] [Server thread/DEBUG] [FML/]: 	CodeChickenLib(CodeChicken Lib:2.5.2.198): CodeChickenLib-1.10.2-2.5.2.198-universal.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	dooglamoocitiesmod(Dooglamoo Cities:1.10.2-1.2.8): dooglamoocitiesmod-1.10.2-1.2.8.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Lua(API: ComputerCraft|API|Lua:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi(API: cofhapi:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|block(API: cofhapi|block:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|core(API: cofhapi|core:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|item(API: cofhapi|item:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API(API: ComputerCraft|API:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Peripheral(API: ComputerCraft|API|Peripheral:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Redstone(API: ComputerCraft|API|Redstone:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|FileSystem(API: ComputerCraft|API|FileSystem:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Permissions(API: ComputerCraft|API|Permissions:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|energy(API: cofhapi|energy:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|tileentity(API: cofhapi|tileentity:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	cofhapi|util(API: cofhapi|util:1.6.0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Turtle(API: ComputerCraft|API|Turtle:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Media(API: ComputerCraft|API|Media:1.80pr0): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	zerocore(Zero CORE:1.10.2-0.1.0.5): zerocore-1.10.2-0.1.0.5.jar (required-after:Forge@[12.18.2.2122,); after:cofhcore)
+[19:42:58] [Server thread/DEBUG] [FML/]: 	bigreactors(Extreme Reactors:1.10.2-0.4.5.28): ExtremeReactors-1.10.2-0.4.5.28.jar (required-after:Forge@[12.18.2.2122,);required-after:zerocore@[1.10.2-0.1.0.5,))
+[19:42:58] [Server thread/DEBUG] [FML/]: 	HealthBar(Health Bar:1.0.5): HealthBar-1.9.4-1.0.5-17.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.6.188-ex110): industrialcraft-2-2.6.188-ex110.jar (required-after:Forge@[12.17.0.1940,))
+[19:42:58] [Server thread/DEBUG] [FML/]: 	icse(I Can See Everything:1.1.0.0): Wawla-1.10.2-2.3.0.206.jar (after:Waila)
+[19:42:58] [Server thread/DEBUG] [FML/]: 	wawla(What Are We Looking At:2.3.0.202): Wawla-1.10.2-2.3.0.206.jar (after:icse)
+[19:42:58] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock|validation(API: zerocore|API|multiblock|validation:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	bigreactors|API(API: bigreactors|API:4.0.1): ExtremeReactors-1.10.2-0.4.5.28.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock(API: zerocore|API|multiblock:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/DEBUG] [FML/]: 	zerocore|API|multiblock|rectangular(API: zerocore|API|multiblock|rectangular:1.10.2-0.0.2): zerocore-1.10.2-0.1.0.5.jar ()
+[19:42:58] [Server thread/INFO] [FML/]: FML has found a non-mod file Neat 1.3-11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[19:42:58] [Server thread/INFO] [FML/]: FML has found a non-mod file Xaeros_Minimap_1.12.6_Forge_1.10.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[19:42:58] [Server thread/DEBUG] [FML/]: Loading @Config anotation data
+[19:42:58] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[19:42:58] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[19:42:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[19:42:58] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[19:42:58] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[19:42:58] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[19:42:58] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[19:42:58] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenLib, ccl-entityhook, dooglamoocitiesmod, bigreactors, HealthBar, IC2, icse, wawla, zerocore] at CLIENT
+[19:42:58] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenLib, ccl-entityhook, dooglamoocitiesmod, bigreactors, HealthBar, IC2, icse, wawla, zerocore] at SERVER
+[19:42:59] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.690s
+[19:42:59] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[19:42:59] [Server thread/DEBUG] [Forge/Forge]: Preloading CrashReport Classes
+[19:42:59] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[19:42:59] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[19:42:59] [Server thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/Loader$3
+[19:42:59] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[19:42:59] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (12.18.3.2281)
+[19:42:59] [Server thread/DEBUG] [FML/Forge]: Attempting to inject @Config classes into Forge for type INSTANCE
+[19:42:59] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.021s
+[19:42:59] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLConstructionEvent to mod ccl-entityhook
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: Preloading CrashReport Classes
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/fingerprint/FingerprintViolatedCrashCallable
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$1
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$2
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$3
+[19:42:59] [Server thread/DEBUG] [ccl-entityhook/ccl-entityhook]: 	codechicken/lib/render/item/CCRenderItem$4
+[19:42:59] [Server thread/TRACE] [FML/ccl-entityhook]: Mod ccl-entityhook is using network checker : Accepting version 1.0
+[19:42:59] [Server thread/TRACE] [FML/ccl-entityhook]: Testing mod ccl-entityhook to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/ccl-entityhook]: The mod ccl-entityhook accepts its own version (1.0)
+[19:42:59] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @SidedProxy classes into ccl-entityhook
+[19:42:59] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @EventBusSubscriber classes into the eventbus for ccl-entityhook
+[19:42:59] [Server thread/DEBUG] [FML/ccl-entityhook]: Attempting to inject @Config classes into ccl-entityhook for type INSTANCE
+[19:42:59] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLConstructionEvent to mod ccl-entityhook
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - ccl-entityhook took 0.056s
+[19:42:59] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLConstructionEvent to mod CodeChickenLib
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: Preloading CrashReport Classes
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/fingerprint/FingerprintViolatedCrashCallable
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$1
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$2
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$3
+[19:42:59] [Server thread/DEBUG] [CodeChickenLib/CodeChickenLib]: 	codechicken/lib/render/item/CCRenderItem$4
+[19:42:59] [Server thread/TRACE] [FML/CodeChickenLib]: Mod CodeChickenLib is using network checker : Accepting version 2.5.2.198
+[19:42:59] [Server thread/TRACE] [FML/CodeChickenLib]: Testing mod CodeChickenLib to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/CodeChickenLib]: The mod CodeChickenLib accepts its own version (2.5.2.198)
+[19:42:59] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @SidedProxy classes into CodeChickenLib
+[19:42:59] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @EventBusSubscriber classes into the eventbus for CodeChickenLib
+[19:42:59] [Server thread/DEBUG] [FML/CodeChickenLib]: Attempting to inject @Config classes into CodeChickenLib for type INSTANCE
+[19:42:59] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLConstructionEvent to mod CodeChickenLib
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CodeChicken Lib took 0.011s
+[19:42:59] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLConstructionEvent to mod dooglamoocitiesmod
+[19:42:59] [Server thread/TRACE] [FML/dooglamoocitiesmod]: Mod dooglamoocitiesmod is using network checker : No network checking performed
+[19:42:59] [Server thread/TRACE] [FML/dooglamoocitiesmod]: Testing mod dooglamoocitiesmod to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/dooglamoocitiesmod]: The mod dooglamoocitiesmod accepts its own version (1.10.2-1.2.8)
+[19:42:59] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @SidedProxy classes into dooglamoocitiesmod
+[19:42:59] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @EventBusSubscriber classes into the eventbus for dooglamoocitiesmod
+[19:42:59] [Server thread/DEBUG] [FML/dooglamoocitiesmod]: Attempting to inject @Config classes into dooglamoocitiesmod for type INSTANCE
+[19:42:59] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLConstructionEvent to mod dooglamoocitiesmod
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Dooglamoo Cities took 0.086s
+[19:42:59] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLConstructionEvent to mod zerocore
+[19:42:59] [Server thread/TRACE] [FML/zerocore]: Mod zerocore is using network checker : Accepting version 1.10.2-0.1.0.5
+[19:42:59] [Server thread/TRACE] [FML/zerocore]: Testing mod zerocore to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/zerocore]: The mod zerocore accepts its own version (1.10.2-0.1.0.5)
+[19:42:59] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @SidedProxy classes into zerocore
+[19:42:59] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @EventBusSubscriber classes into the eventbus for zerocore
+[19:42:59] [Server thread/DEBUG] [FML/zerocore]: Attempting to inject @Config classes into zerocore for type INSTANCE
+[19:42:59] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLConstructionEvent to mod zerocore
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Zero CORE took 0.026s
+[19:42:59] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLConstructionEvent to mod bigreactors
+[19:42:59] [Server thread/TRACE] [FML/bigreactors]: Mod bigreactors is using network checker : Accepting version 1.10.2-0.4.5.28
+[19:42:59] [Server thread/TRACE] [FML/bigreactors]: Testing mod bigreactors to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/bigreactors]: The mod bigreactors accepts its own version (1.10.2-0.4.5.28)
+[19:42:59] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @SidedProxy classes into bigreactors
+[19:42:59] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @EventBusSubscriber classes into the eventbus for bigreactors
+[19:42:59] [Server thread/DEBUG] [FML/bigreactors]: Attempting to inject @Config classes into bigreactors for type INSTANCE
+[19:42:59] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLConstructionEvent to mod bigreactors
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Extreme Reactors took 0.073s
+[19:42:59] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLConstructionEvent to mod HealthBar
+[19:42:59] [Server thread/TRACE] [FML/HealthBar]: Mod HealthBar is using network checker : Accepting version 1.0.5
+[19:42:59] [Server thread/TRACE] [FML/HealthBar]: Testing mod HealthBar to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/HealthBar]: The mod HealthBar accepts its own version (1.0.5)
+[19:42:59] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @SidedProxy classes into HealthBar
+[19:42:59] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @EventBusSubscriber classes into the eventbus for HealthBar
+[19:42:59] [Server thread/DEBUG] [FML/HealthBar]: Attempting to inject @Config classes into HealthBar for type INSTANCE
+[19:42:59] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLConstructionEvent to mod HealthBar
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Health Bar took 0.013s
+[19:42:59] [Server thread/TRACE] [IC2/IC2]: Sending event FMLConstructionEvent to mod IC2
+[19:42:59] [Server thread/TRACE] [FML/IC2]: Mod IC2 is using network checker : Accepting version 2.6.188-ex110
+[19:42:59] [Server thread/TRACE] [FML/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/IC2]: The mod IC2 accepts its own version (2.6.188-ex110)
+[19:42:59] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @SidedProxy classes into IC2
+[19:42:59] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @EventBusSubscriber classes into the eventbus for IC2
+[19:42:59] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @Config classes into IC2 for type INSTANCE
+[19:42:59] [Server thread/TRACE] [IC2/IC2]: Sent event FMLConstructionEvent to mod IC2
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - IndustrialCraft 2 took 0.431s
+[19:42:59] [Server thread/TRACE] [icse/icse]: Sending event FMLConstructionEvent to mod icse
+[19:42:59] [Server thread/TRACE] [FML/icse]: Mod icse is using network checker : No network checking performed
+[19:42:59] [Server thread/TRACE] [FML/icse]: Testing mod icse to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/icse]: The mod icse accepts its own version (1.1.0.0)
+[19:42:59] [Server thread/DEBUG] [FML/icse]: Attempting to inject @SidedProxy classes into icse
+[19:42:59] [Server thread/DEBUG] [FML/icse]: Attempting to inject @EventBusSubscriber classes into the eventbus for icse
+[19:42:59] [Server thread/DEBUG] [FML/icse]: Attempting to inject @Config classes into icse for type INSTANCE
+[19:42:59] [Server thread/TRACE] [icse/icse]: Sent event FMLConstructionEvent to mod icse
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - I Can See Everything took 0.023s
+[19:42:59] [Server thread/TRACE] [wawla/wawla]: Sending event FMLConstructionEvent to mod wawla
+[19:42:59] [Server thread/TRACE] [FML/wawla]: Mod wawla is using network checker : No network checking performed
+[19:42:59] [Server thread/TRACE] [FML/wawla]: Testing mod wawla to verify it accepts its own version in a remote connection
+[19:42:59] [Server thread/TRACE] [FML/wawla]: The mod wawla accepts its own version (2.3.0.202)
+[19:42:59] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @SidedProxy classes into wawla
+[19:42:59] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @EventBusSubscriber classes into the eventbus for wawla
+[19:42:59] [Server thread/DEBUG] [FML/wawla]: Attempting to inject @Config classes into wawla for type INSTANCE
+[19:42:59] [Server thread/TRACE] [wawla/wawla]: Sent event FMLConstructionEvent to mod wawla
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Step: Construction - What Are We Looking At took 0.007s
+[19:42:59] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1.438s
+[19:42:59] [Server thread/DEBUG] [FML/]: Mod signature data
+[19:42:59] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[19:42:59] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	12.18.3.2281)	forge.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		(f1850c39b2516232a2108a7bd84d1cb5df93b261) CodeChickenLib	(CodeChicken Lib	2.5.2.198)	CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		(de041f9f6187debbc77034a344134053277aa3b0) IC2	(IndustrialCraft 2	2.6.188-ex110)	industrialcraft-2-2.6.188-ex110.jar
+[19:42:59] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[19:42:59] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		ccl-entityhook	(ccl-entityhook	1.0)	CodeChickenLib-1.10.2-2.5.2.198-universal.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		dooglamoocitiesmod	(Dooglamoo Cities	1.10.2-1.2.8)	dooglamoocitiesmod-1.10.2-1.2.8.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		zerocore	(Zero CORE	1.10.2-0.1.0.5)	zerocore-1.10.2-0.1.0.5.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		bigreactors	(Extreme Reactors	1.10.2-0.4.5.28)	ExtremeReactors-1.10.2-0.4.5.28.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		HealthBar	(Health Bar	1.0.5)	HealthBar-1.9.4-1.0.5-17.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		icse	(I Can See Everything	1.1.0.0)	Wawla-1.10.2-2.3.0.206.jar
+[19:42:59] [Server thread/DEBUG] [FML/]: 		wawla	(What Are We Looking At	2.3.0.202)	Wawla-1.10.2-2.3.0.206.jar
+[19:42:59] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[19:42:59] [Server thread/INFO] [FML/]: Found 423 ObjectHolder annotations
+[19:42:59] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[19:42:59] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[19:42:59] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:43:00] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:43:00] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:43:00] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:43:00] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:43:00] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:43:00] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[19:43:00] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[19:43:00] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[19:43:00] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.031s
+[19:43:00] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[19:43:00] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[19:43:00] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:43:00] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.304s
+[19:43:00] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLPreInitializationEvent to mod ccl-entityhook
+[19:43:00] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLPreInitializationEvent to mod ccl-entityhook
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - ccl-entityhook took 0.001s
+[19:43:00] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLPreInitializationEvent to mod CodeChickenLib
+[19:43:00] [Server thread/DEBUG] [CodeChickenLib Fingerprint Verification/CodeChickenLib]: Valid fingerprint found for mod CodeChickenLib.
+[19:43:00] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLPreInitializationEvent to mod CodeChickenLib
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CodeChicken Lib took 0.007s
+[19:43:00] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLPreInitializationEvent to mod dooglamoocitiesmod
+[19:43:00] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
@@ -490,7 +471,7 @@
     "1.10.2-recommended": "12.18.3.2185",
     "1.11-latest": "13.19.1.2199",
     "1.11-recommended": "13.19.1.2189",
-    "1.11.2-latest": "13.20.0.2282",
+    "1.11.2-latest": "13.20.0.2284",
     "1.11.2-recommended": "13.20.0.2228",
     "1.5.2-latest": "7.8.1.738",
     "1.5.2-recommended": "7.8.1.737",
@@ -514,20 +495,20 @@
     "1.9-recommended": "12.16.1.1887",
     "1.9.4-latest": "12.17.0.2051",
     "1.9.4-recommended": "12.17.0.1976",
-    "latest": "13.20.0.2282",
+    "latest": "13.20.0.2284",
     "latest-1.7.10": "10.13.2.1343",
     "recommended": "13.20.0.2228"
   }
 }
-[06:07:45] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
-[06:07:45] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [HealthBar] Starting version check at https://raw.githubusercontent.com/SilentChaos512/HealthBar/master/update.json
-[06:07:45] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLPreInitializationEvent to mod dooglamoocitiesmod
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Dooglamoo Cities took 0.342s
-[06:07:45] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLPreInitializationEvent to mod zerocore
-[06:07:45] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLPreInitializationEvent to mod zerocore
-[06:07:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Zero CORE took 0.007s
-[06:07:45] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLPreInitializationEvent to mod bigreactors
-[06:07:46] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [HealthBar] Received version check data:
+[19:43:00] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
+[19:43:00] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [HealthBar] Starting version check at https://raw.githubusercontent.com/SilentChaos512/HealthBar/master/update.json
+[19:43:00] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLPreInitializationEvent to mod dooglamoocitiesmod
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Dooglamoo Cities took 0.339s
+[19:43:00] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLPreInitializationEvent to mod zerocore
+[19:43:00] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLPreInitializationEvent to mod zerocore
+[19:43:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Zero CORE took 0.008s
+[19:43:00] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLPreInitializationEvent to mod bigreactors
+[19:43:01] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [HealthBar] Received version check data:
 {
   "homepage": "http://minecraft.curseforge.com/projects/health-bar/files",
   "promos": {
@@ -544,677 +525,84 @@
   }
 }
 
-[06:07:46] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [HealthBar] Found status: BETA Target: null
-[06:07:47] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLPreInitializationEvent to mod bigreactors
-[06:07:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Extreme Reactors took 1.825s
-[06:07:47] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPreInitializationEvent to mod IC2
-[06:07:47] [Server thread/DEBUG] [IC2.General/IC2]: Starting pre-init.
-[06:07:47] [Server thread/TRACE] [IC2.Resource/IC2]: Successfully loaded server localization.
-[06:07:55] [Server thread/DEBUG] [IC2.Block/IC2]: Successfully built BlockTileEntity for identity ic2:te.
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Itnt as IC2.Itnt
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Nuke as IC2.Nuke
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
-[06:07:57] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Particle as IC2.Particle
-[06:07:57] [Server thread/DEBUG] [IC2.General/IC2]: Finished pre-init after 9420 ms.
-[06:07:57] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPreInitializationEvent to mod IC2
-[06:07:57] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - IndustrialCraft 2 took 9.428s
-[06:07:57] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLPreInitializationEvent to mod gregtech
-[06:07:57] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Replacing IC2 recipes managers
-[06:07:58] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Preload-Phase started!
-[06:07:58] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Getting required Items of other Mods.
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Setting Configs
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Saving Main Config
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Generating Lang-File
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Removing all original Scrapbox Drops.
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: java.lang.ClassNotFoundException: ic2.core.item.ItemScrapbox$Drop
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.Class.forName0(Native Method)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.Class.forName(Class.java:264)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_Utility.getField(GT_Utility.java:147)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.GT_Mod.onPreLoad(GT_Mod.java:256)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:616)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:243)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:221)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:145)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:624)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.Thread.run(Thread.java:745)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: Caused by: java.lang.NullPointerException
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
-[06:07:59] [Server thread/ERROR] [gregtech/gregtech]: 	... 37 more
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Scrap with a Weight of 200.0F to the Scrapbox Drops.
-[06:07:59] [Server thread/TRACE] [FML/gregtech]: Automatically registered mod gregtech entity GT_Entity_Arrow as gregtech.GT_Entity_Arrow
-[06:07:59] [Server thread/TRACE] [FML/gregtech]: Automatically registered mod gregtech entity GT_Entity_Arrow_Potion as gregtech.GT_Entity_Arrow_Potion
-[06:07:59] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.GT_Mod:onPreLoad:269]: preReader
-[06:07:59] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.GT_Mod:onPreLoad:335]: reenableMetaItems
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register Books.
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Printer'  -  Name: 'Printer Manual V2.0'  -  Author: 'Gregorius Techneticies'
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Punch_Cards'  -  Name: 'Punch Card Manual V0.0'  -  Author: 'Gregorius Techneticies'
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Added Book to Book List  -  Mapping: 'Manual_Microwave'  -  Name: 'Microwave Oven Manual'  -  Author: 'Kitchen Industries'
-[06:07:59] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register Items.
-[06:08:00] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register OreDict Entries of Non-GT-Items.
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.GT_Proxy:registerOre:998]: Ignoring IC2 fluid container 1xic2.fluid_cell@0 registration as cellLava because ic2 fluid containers are mad.
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.GT_Proxy:registerOre:998]: Ignoring IC2 fluid container 1xic2.fluid_cell@0 registration as cellWater because ic2 fluid containers are mad.
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.GT_Proxy:registerOre:998]: Ignoring IC2 fluid container 1xic2.fluid_cell@0 registration as cellUUMatter because ic2 fluid containers are mad.
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.GT_Proxy:registerOre:998]: Ignoring IC2 fluid container 1xic2.fluid_cell@0 registration as cellConstructionFoam because ic2 fluid containers are mad.
-[06:08:00] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Loading Item Data Tags
-[06:08:00] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register Ore processing.
-[06:08:00] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Blocks.
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.blocks.GT_Block_GeneratedOres:doOreThings:56]: MATERIALS META OFFSET: 7
-[06:08:00] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.blocks.GT_Block_GeneratedOres:doOreThings:57]: MATERIALS/BLOCK: 2
-[06:08:01] [Server thread/INFO] [STDOUT/gregtech]: [gregtech.common.blocks.GT_Block_GeneratedOres:doOreThings:81]: ORE BLOCKS REGISTERED: 146
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register TileEntities.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Testing BaseMetaTileEntity.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering the BaseMetaTileEntity.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering the BaseMetaPipeEntity.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering the Ore TileEntity.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering Fluids.
-[06:08:01] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering MetaTileEntities.
-[06:08:02] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register Redstone Circuit behaviours.
-[06:08:02] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Cover Behaviors
-[06:08:02] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Loading Sonictron Sounds
-[06:08:02] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Sorting GregTech to the end of the Mod List for further processing.
-[06:08:02] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Preload-Phase finished!
-[06:08:02] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLPreInitializationEvent to mod gregtech
-[06:08:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - GregTech took 5.376s
-[06:08:02] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLPreInitializationEvent to mod HealthBar
-[06:08:02] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLPreInitializationEvent to mod HealthBar
-[06:08:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Health Bar took 0.016s
-[06:08:02] [Server thread/TRACE] [icse/icse]: Sending event FMLPreInitializationEvent to mod icse
-[06:08:02] [Server thread/TRACE] [icse/icse]: Sent event FMLPreInitializationEvent to mod icse
-[06:08:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - I Can See Everything took 0.014s
-[06:08:02] [Server thread/TRACE] [wawla/wawla]: Sending event FMLPreInitializationEvent to mod wawla
-[06:08:02] [Server thread/TRACE] [wawla/wawla]: Sent event FMLPreInitializationEvent to mod wawla
-[06:08:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - What Are We Looking At took 0.029s
-[06:08:02] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 17.324s
-[06:08:02] [Server thread/INFO] [FML/]: Applying holder lookups
-[06:08:02] [Server thread/INFO] [FML/]: Holder lookups applied
-[06:08:02] [Server thread/INFO] [FML/]: Injecting itemstacks
-[06:08:02] [Server thread/INFO] [FML/]: Itemstack injection complete
-[06:08:03] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
-[06:08:03] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
-[06:08:03] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
-[06:08:03] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
-[06:08:03] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
-[06:08:03] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
-[06:08:03] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLInitializationEvent to mod ccl-entityhook
-[06:08:03] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLInitializationEvent to mod ccl-entityhook
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - ccl-entityhook took 0.000s
-[06:08:03] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLInitializationEvent to mod CodeChickenLib
-[06:08:03] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLInitializationEvent to mod CodeChickenLib
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CodeChicken Lib took 0.000s
-[06:08:03] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLInitializationEvent to mod dooglamoocitiesmod
-[06:08:03] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLInitializationEvent to mod dooglamoocitiesmod
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Dooglamoo Cities took 0.009s
-[06:08:03] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLInitializationEvent to mod zerocore
-[06:08:03] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLInitializationEvent to mod zerocore
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Zero CORE took 0.000s
-[06:08:03] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLInitializationEvent to mod bigreactors
-[06:08:03] [Server thread/INFO] [FML/bigreactors]: Ignored smelting recipe with conflicting input: 1xitem.coal@1 = 1xitem.bigreactors:ingotmetals@2
-[06:08:03] [Server thread/WARN] [FML/bigreactors]: Overriding existing coil part data for oredict name <blockManyullyn>, original values: eff 3.00 / bonus 1.00, new values: eff 3.50 / bonus 1.00
-[06:08:03] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLInitializationEvent to mod bigreactors
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Extreme Reactors took 0.083s
-[06:08:03] [Server thread/TRACE] [IC2/IC2]: Sending event FMLInitializationEvent to mod IC2
-[06:08:03] [Server thread/DEBUG] [IC2.General/IC2]: Starting init.
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 326 out of 326 recipes for shaped recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 73 out of 73 recipes for shapeless recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 17 out of 17 recipes for block cutter recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 48 out of 48 recipes for compressor recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 12 out of 12 recipes for extractor recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 74 out of 74 recipes for macerator recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 9 out of 9 recipes for metal former extruding recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 8 out of 8 recipes for ore washing recipes
-[06:08:03] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 25 out of 25 recipes for thermal centrifuge recipes
-[06:08:03] [Server thread/DEBUG] [IC2.Recipe/IC2]: 0 recipes failed to load in the first pass.
-[06:08:03] [Server thread/DEBUG] [IC2.General/IC2]: Finished init after 668 ms.
-[06:08:03] [Server thread/TRACE] [IC2/IC2]: Sent event FMLInitializationEvent to mod IC2
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - IndustrialCraft 2 took 0.675s
-[06:08:03] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLInitializationEvent to mod HealthBar
-[06:08:03] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLInitializationEvent to mod HealthBar
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Health Bar took 0.007s
-[06:08:03] [Server thread/TRACE] [icse/icse]: Sending event FMLInitializationEvent to mod icse
-[06:08:03] [Server thread/TRACE] [icse/icse]: Sent event FMLInitializationEvent to mod icse
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - I Can See Everything took 0.000s
-[06:08:03] [Server thread/TRACE] [wawla/wawla]: Sending event FMLInitializationEvent to mod wawla
-[06:08:03] [Server thread/TRACE] [wawla/wawla]: Sent event FMLInitializationEvent to mod wawla
-[06:08:03] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - What Are We Looking At took 0.000s
-[06:08:03] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLInitializationEvent to mod gregtech
-[06:08:03] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Beginning Load-Phase.
-[06:08:03] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Scanning for certain kinds of compatible Machineblocks.
-[06:08:03] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Registering various Tools to be usable on GregTech Machines
-[06:08:03] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Food Recipes to the Automatic Canning Machine. (also during the following Item Iteration)
-[06:08:03] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Scanning ItemList.
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Re-Unificating Recipes.
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Initializing various Fuels.
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Load-Phase finished!
-[06:08:06] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLInitializationEvent to mod gregtech
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - GregTech took 2.768s
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 3.545s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
-[06:08:06] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
-[06:08:06] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.001s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
-[06:08:06] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
-[06:08:06] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.003s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
-[06:08:06] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
-[06:08:06] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ccl-entityhook
-[06:08:06] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event IMCEvent to mod ccl-entityhook
-[06:08:06] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event IMCEvent to mod ccl-entityhook
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ccl-entityhook took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CodeChickenLib
-[06:08:06] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event IMCEvent to mod CodeChickenLib
-[06:08:06] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event IMCEvent to mod CodeChickenLib
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - CodeChicken Lib took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod dooglamoocitiesmod
-[06:08:06] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event IMCEvent to mod dooglamoocitiesmod
-[06:08:06] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event IMCEvent to mod dooglamoocitiesmod
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Dooglamoo Cities took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod zerocore
-[06:08:06] [Server thread/TRACE] [zerocore/zerocore]: Sending event IMCEvent to mod zerocore
-[06:08:06] [Server thread/TRACE] [zerocore/zerocore]: Sent event IMCEvent to mod zerocore
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Zero CORE took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod bigreactors
-[06:08:06] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event IMCEvent to mod bigreactors
-[06:08:06] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event IMCEvent to mod bigreactors
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Extreme Reactors took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod IC2
-[06:08:06] [Server thread/TRACE] [IC2/IC2]: Sending event IMCEvent to mod IC2
-[06:08:06] [Server thread/TRACE] [IC2/IC2]: Sent event IMCEvent to mod IC2
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - IndustrialCraft 2 took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod HealthBar
-[06:08:06] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event IMCEvent to mod HealthBar
-[06:08:06] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event IMCEvent to mod HealthBar
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Health Bar took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod icse
-[06:08:06] [Server thread/TRACE] [icse/icse]: Sending event IMCEvent to mod icse
-[06:08:06] [Server thread/TRACE] [icse/icse]: Sent event IMCEvent to mod icse
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - I Can See Everything took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod wawla
-[06:08:06] [Server thread/TRACE] [wawla/wawla]: Sending event IMCEvent to mod wawla
-[06:08:06] [Server thread/TRACE] [wawla/wawla]: Sent event IMCEvent to mod wawla
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - What Are We Looking At took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod gregtech
-[06:08:06] [Server thread/TRACE] [gregtech/gregtech]: Sending event IMCEvent to mod gregtech
-[06:08:06] [Server thread/TRACE] [gregtech/gregtech]: Sent event IMCEvent to mod gregtech
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - GregTech took 0.005s
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.013s
-[06:08:06] [Server thread/INFO] [FML/]: Injecting itemstacks
-[06:08:06] [Server thread/INFO] [FML/]: Itemstack injection complete
-[06:08:06] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
-[06:08:06] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
-[06:08:06] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
-[06:08:06] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
-[06:08:06] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
-[06:08:06] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.014s
-[06:08:06] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLPostInitializationEvent to mod ccl-entityhook
-[06:08:06] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLPostInitializationEvent to mod ccl-entityhook
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - ccl-entityhook took 0.000s
-[06:08:06] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLPostInitializationEvent to mod CodeChickenLib
-[06:08:06] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLPostInitializationEvent to mod CodeChickenLib
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - CodeChicken Lib took 0.000s
-[06:08:06] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLPostInitializationEvent to mod dooglamoocitiesmod
-[06:08:06] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLPostInitializationEvent to mod dooglamoocitiesmod
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Dooglamoo Cities took 0.009s
-[06:08:06] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLPostInitializationEvent to mod zerocore
-[06:08:06] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLPostInitializationEvent to mod zerocore
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Zero CORE took 0.000s
-[06:08:06] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLPostInitializationEvent to mod bigreactors
-[06:08:06] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLPostInitializationEvent to mod bigreactors
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Extreme Reactors took 0.001s
-[06:08:06] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPostInitializationEvent to mod IC2
-[06:08:06] [Server thread/DEBUG] [IC2.General/IC2]: Starting post-init.
-[06:08:06] [Server thread/DEBUG] [IC2.SubModule/IC2]: Loading IC2 submodule: bcIntegration.
-[06:08:06] [Server thread/DEBUG] [IC2.SubModule/IC2]: Submodule bcIntegration not loaded.
-[06:08:06] [Server thread/INFO] [IC2.Uu/IC2]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
-[06:08:06] [Server thread/WARN] [IC2.Uu/IC2]: Invalid itemstack detected, shaped vanilla crafting recipe [[1xitem.paper@0], [1xitem.paper@0], [1xitem.paper@0], [1xitem.paper@0], [], [1xitem.paper@0], [1xitem.paper@0], [1xitem.paper@0], [1xitem.paper@0]] -> 0xitem.emptyMap@0
-[06:08:06] [Server thread/DEBUG] [IC2.Uu/IC2]: 2356 UU recipe transformations fetched after 163 ms.
-[06:08:06] [Server thread/DEBUG] [IC2.General/IC2]: Finished post-init after 271 ms.
-[06:08:06] [Server thread/INFO] [IC2.General/IC2]: IC2 version 2.6.188-ex110 loaded.
-[06:08:06] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPostInitializationEvent to mod IC2
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - IndustrialCraft 2 took 0.272s
-[06:08:06] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLPostInitializationEvent to mod HealthBar
-[06:08:06] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLPostInitializationEvent to mod HealthBar
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Health Bar took 0.000s
-[06:08:06] [Server thread/TRACE] [icse/icse]: Sending event FMLPostInitializationEvent to mod icse
-[06:08:06] [Server thread/TRACE] [icse/icse]: Sent event FMLPostInitializationEvent to mod icse
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - I Can See Everything took 0.000s
-[06:08:06] [Server thread/TRACE] [wawla/wawla]: Sending event FMLPostInitializationEvent to mod wawla
-[06:08:06] [Server thread/TRACE] [wawla/wawla]: Sent event FMLPostInitializationEvent to mod wawla
-[06:08:06] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - What Are We Looking At took 0.001s
-[06:08:06] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLPostInitializationEvent to mod gregtech
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Beginning PostLoad-Phase.
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Configs specific for MetaTileEntities
-[06:08:06] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Tool Usage Crafting Recipes for OreDict Items.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Re-Unificating Recipes.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding worldgenerated Chest Content.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Changing maximum Stacksizes if configured.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Stuff to the Recycler Blacklist.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Blocks to the Miners Valuable List.
-[06:08:07] [ic2-poolthread-1/DEBUG] [IC2.Uu/IC2]: UU graph built with 2272 nodes after 446 ms.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding non-OreDict Machine Recipes.
-[06:08:07] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.metaitem.02@32563 = 1xgt.metaitem.02@32565
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: (re-)adding Scrapbox Drops.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Register Crops to IC2.
-[06:08:07] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Created a List of Tool Recipes containing 76 Recipes for recycling.
-[06:08:08] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Activating OreDictionary Handler, this can take some time, as it scans the whole OreDictionary
-[06:08:08] [Server thread/INFO] [FML/gregtech]: If your Log stops here, you were too impatient. Wait a bit more next time, before killing Minecraft with the Task Manager.
-[06:08:09] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.resource@3 = 1xic2.ingot@6
-[06:08:09] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@0 = 1xgt.metaitem.01@11098
-[06:08:10] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.bigreactors:brore@0 = 1xgt.metaitem.01@11098
-[06:08:10] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@10 = 1xic2.ingot@3
-[06:08:11] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@0 = 1xgt.metaitem.01@11098
-[06:08:11] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@3 = 1xgt.metaitem.01@11100
-[06:08:11] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreEmerald@0 = 1xitem.emerald@0
-[06:08:13] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@17 = 1xic2.ingot@6
-[06:08:13] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@0 = 1xic2.ingot@1
-[06:08:13] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreCoal@0 = 1xitem.coal@0
-[06:08:13] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreDiamond@0 = 1xitem.diamond@0
-[06:08:14] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@3 = 1xitem.bigreactors:ingotmetals@3
-[06:08:15] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@3 = 1xgt.metaitem.01@2535
-[06:08:15] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@7 = 1xitem.ingotGold@0
-[06:08:15] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.blockores.38@8 = 1xitem.bigreactors:ingotmetals@2
-[06:08:15] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@4 = 1xic2.ingot@2
-[06:08:16] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreGold@0 = 1xitem.ingotGold@0
-[06:08:16] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreLapis@0 = 3xitem.dyePowder@4
-[06:08:16] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.resource@2 = 1xic2.ingot@3
-[06:08:16] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.blockores.38@7 = 1xitem.bigreactors:ingotmetals@2
-[06:08:17] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.blockores.38@9 = 1xitem.bigreactors:ingotmetals@2
-[06:08:17] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.blockores.38@11 = 1xitem.bigreactors:ingotmetals@2
-[06:08:17] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@8 = 1xitem.ingotIron@0
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xgt.blockores.38@10 = 1xitem.bigreactors:ingotmetals@2
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.netherquartz@0 = 1xitem.netherquartz@0
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.dust@14 = 1xic2.ingot@4
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xic2.resource@1 = 1xic2.ingot@2
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@4 = 1xitem.bigreactors:ingotmetals@4
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xitem.bigreactors:dustmetals@1 = 1xitem.bigreactors:ingotmetals@1
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Ignored smelting recipe with conflicting input: 1xtile.oreIron@0 = 1xitem.ingotIron@0
-[06:08:18] [Server thread/DEBUG] [FML/gregtech]: Bar Finished: Register materials took 10.394s
-[06:08:18] [Server thread/INFO] [FML/gregtech]: Congratulations, you have been waiting long enough. Have a Cake.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: List of Lists of Tool Recipes: []
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Vanilla Recipe List -> Outputs null or stackSize <=0: []
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Single Non Block Damagable Recipe List -> Outputs null or stackSize <=0: []
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding nerfed Vanilla Recipes.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Vanilla Convenience Recipes.
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: java.lang.NullPointerException
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.item.ItemStack.func_77952_i(ItemStack.java:245)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.api.recipe.RecipeInputOreDict.matches(RecipeInputOreDict.java:36)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.core.recipe.AdvShapelessRecipe.func_77572_b(AdvShapelessRecipe.java:171)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.core.recipe.AdvShapelessRecipe.func_77569_a(AdvShapelessRecipe.java:153)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.removeRecipe(GT_ModHandler.java:1149)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.addShapelessCraftingRecipe(GT_ModHandler.java:1086)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.addShapelessCraftingRecipe(GT_ModHandler.java:1047)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.loaders.postload.GT_CraftingRecipeLoader.run(GT_CraftingRecipeLoader.java:108)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.GT_Mod.onPostLoad(GT_Mod.java:535)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:616)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:243)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:221)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:145)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:810)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:333)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:214)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.Thread.run(Thread.java:745)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: java.lang.NullPointerException
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.item.ItemStack.func_77952_i(ItemStack.java:245)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.api.recipe.RecipeInputOreDict.matches(RecipeInputOreDict.java:36)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.core.recipe.AdvShapelessRecipe.func_77572_b(AdvShapelessRecipe.java:171)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at ic2.core.recipe.AdvShapelessRecipe.func_77569_a(AdvShapelessRecipe.java:153)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.removeRecipe(GT_ModHandler.java:1149)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.addShapelessCraftingRecipe(GT_ModHandler.java:1086)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.api.util.GT_ModHandler.addShapelessCraftingRecipe(GT_ModHandler.java:1047)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.loaders.postload.GT_CraftingRecipeLoader.run(GT_CraftingRecipeLoader.java:109)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at gregtech.GT_Mod.onPostLoad(GT_Mod.java:535)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:616)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:243)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:221)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:145)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:810)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:333)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:214)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
-[06:08:18] [Server thread/ERROR] [gregtech/gregtech]: 	at java.lang.Thread.run(Thread.java:745)
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Tool Recipes.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Wool and Color releated Recipes.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Putting a Potato on a Stick.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Mixed Metal Ingot Recipes.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Rolling Machine Recipes.
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Replacing Railcraft Recipes with slightly more OreDicted Variants
-[06:08:18] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Beginning to add regular Crafting Recipes.
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Applying harder Recipes for several Blocks.
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Applying Recipes for Tools
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Removing Q-Armor Recipes if configured.
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Nerfing Vanilla Tool Durability
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding buffered Recipes.
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Saving Lang File.
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: PostLoad-Phase finished!
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Adding Fake Recipes for NEI
-[06:08:19] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Loading finished, deallocating temporary Init Variables.
-[06:08:19] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLPostInitializationEvent to mod gregtech
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - GregTech took 12.346s
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 12.643s
-[06:08:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
-[06:08:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
-[06:08:19] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
-[06:08:19] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
-[06:08:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
-[06:08:19] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   23: RecipeEntry("Before", UNKNOWN, )
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   22: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   21: RecipeEntry("gregtech:shaped", SHAPED, gregtech.api.util.GT_Shaped_Recipe) Before: minecraft:shapeless After: minecraft:shaped
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   20: RecipeEntry("ic2:jetpackAttachement", SHAPELESS, ic2.core.item.armor.jetpack.JetpackAttachmentRecipe) Before: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   19: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   18: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   17: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   16: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   15: RecipeEntry("ic2:shaped", SHAPED, ic2.core.recipe.AdvRecipe) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("ic2:shapeless", SHAPELESS, ic2.core.recipe.AdvShapelessRecipe) After: ic2:shaped
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("ic2:QSuitDying", SHAPELESS, ic2.core.recipe.RecipeQArmorDye) After: ic2:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("gregtech:shapeless", SHAPELESS, gregtech.api.util.GT_Shapeless_Recipe) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("ic2:gradual", SHAPELESS, ic2.core.recipe.GradualRecipe) After: ic2:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[06:08:19] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
-[06:08:19] [Server thread/DEBUG] [FML/Forge]: Sorting recipes
-[06:08:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.035s
-[06:08:19] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLLoadCompleteEvent to mod ccl-entityhook
-[06:08:19] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLLoadCompleteEvent to mod ccl-entityhook
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - ccl-entityhook took 0.000s
-[06:08:19] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLLoadCompleteEvent to mod CodeChickenLib
-[06:08:19] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLLoadCompleteEvent to mod CodeChickenLib
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - CodeChicken Lib took 0.001s
-[06:08:19] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLLoadCompleteEvent to mod dooglamoocitiesmod
-[06:08:19] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLLoadCompleteEvent to mod dooglamoocitiesmod
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Dooglamoo Cities took 0.002s
-[06:08:19] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLLoadCompleteEvent to mod zerocore
-[06:08:19] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLLoadCompleteEvent to mod zerocore
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Zero CORE took 0.000s
-[06:08:19] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLLoadCompleteEvent to mod bigreactors
-[06:08:19] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLLoadCompleteEvent to mod bigreactors
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Extreme Reactors took 0.000s
-[06:08:19] [Server thread/TRACE] [IC2/IC2]: Sending event FMLLoadCompleteEvent to mod IC2
-[06:08:19] [Server thread/TRACE] [IC2/IC2]: Sent event FMLLoadCompleteEvent to mod IC2
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - IndustrialCraft 2 took 0.001s
-[06:08:19] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLLoadCompleteEvent to mod HealthBar
-[06:08:19] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLLoadCompleteEvent to mod HealthBar
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Health Bar took 0.000s
-[06:08:19] [Server thread/TRACE] [icse/icse]: Sending event FMLLoadCompleteEvent to mod icse
-[06:08:19] [Server thread/TRACE] [icse/icse]: Sent event FMLLoadCompleteEvent to mod icse
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - I Can See Everything took 0.000s
-[06:08:19] [Server thread/TRACE] [wawla/wawla]: Sending event FMLLoadCompleteEvent to mod wawla
-[06:08:19] [Server thread/TRACE] [wawla/wawla]: Sent event FMLLoadCompleteEvent to mod wawla
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - What Are We Looking At took 0.000s
-[06:08:19] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLLoadCompleteEvent to mod gregtech
-[06:08:19] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLLoadCompleteEvent to mod gregtech
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - GregTech took 0.000s
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.040s
-[06:08:19] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
-[06:08:19] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 13 mods
-[06:08:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
-[06:08:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.003s
-[06:08:19] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
-[06:08:19] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
-[06:08:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
-[06:08:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
-[06:08:19] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLServerAboutToStartEvent to mod ccl-entityhook
-[06:08:19] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLServerAboutToStartEvent to mod ccl-entityhook
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ccl-entityhook took 0.000s
-[06:08:19] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLServerAboutToStartEvent to mod CodeChickenLib
-[06:08:19] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLServerAboutToStartEvent to mod CodeChickenLib
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - CodeChicken Lib took 0.000s
-[06:08:19] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLServerAboutToStartEvent to mod dooglamoocitiesmod
-[06:08:19] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLServerAboutToStartEvent to mod dooglamoocitiesmod
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Dooglamoo Cities took 0.000s
-[06:08:19] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLServerAboutToStartEvent to mod zerocore
-[06:08:19] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLServerAboutToStartEvent to mod zerocore
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Zero CORE took 0.000s
-[06:08:19] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLServerAboutToStartEvent to mod bigreactors
-[06:08:19] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLServerAboutToStartEvent to mod bigreactors
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Extreme Reactors took 0.000s
-[06:08:19] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerAboutToStartEvent to mod IC2
-[06:08:19] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerAboutToStartEvent to mod IC2
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - IndustrialCraft 2 took 0.000s
-[06:08:19] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLServerAboutToStartEvent to mod HealthBar
-[06:08:19] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLServerAboutToStartEvent to mod HealthBar
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Health Bar took 0.000s
-[06:08:19] [Server thread/TRACE] [icse/icse]: Sending event FMLServerAboutToStartEvent to mod icse
-[06:08:19] [Server thread/TRACE] [icse/icse]: Sent event FMLServerAboutToStartEvent to mod icse
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - I Can See Everything took 0.000s
-[06:08:19] [Server thread/TRACE] [wawla/wawla]: Sending event FMLServerAboutToStartEvent to mod wawla
-[06:08:19] [Server thread/TRACE] [wawla/wawla]: Sent event FMLServerAboutToStartEvent to mod wawla
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - What Are We Looking At took 0.000s
-[06:08:19] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLServerAboutToStartEvent to mod gregtech
-[06:08:19] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLServerAboutToStartEvent to mod gregtech
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - GregTech took 0.000s
-[06:08:19] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.005s
-[06:08:19] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@3f1aec59)
-[06:08:24] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@3f1aec59)
-[06:08:24] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@3f1aec59)
-[06:08:53] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
-[06:08:53] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
-[06:08:53] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
-[06:08:53] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
-[06:08:53] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
-[06:08:53] [Server Watchdog/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.IllegalArgumentException: timeout value is negative
-[06:08:53] [Server Watchdog/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.sleep(Native Method)
-[06:08:53] [Server Watchdog/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:83)
-[06:08:53] [Server Watchdog/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:745)
-[06:08:53] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.007s
-[06:08:53] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLServerStartingEvent to mod ccl-entityhook
-[06:08:53] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLServerStartingEvent to mod ccl-entityhook
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ccl-entityhook took 0.000s
-[06:08:53] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLServerStartingEvent to mod CodeChickenLib
-[06:08:53] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLServerStartingEvent to mod CodeChickenLib
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - CodeChicken Lib took 0.000s
-[06:08:53] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLServerStartingEvent to mod dooglamoocitiesmod
-[06:08:53] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLServerStartingEvent to mod dooglamoocitiesmod
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Dooglamoo Cities took 0.000s
-[06:08:53] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLServerStartingEvent to mod zerocore
-[06:08:53] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLServerStartingEvent to mod zerocore
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Zero CORE took 0.000s
-[06:08:53] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLServerStartingEvent to mod bigreactors
-[06:08:53] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLServerStartingEvent to mod bigreactors
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Extreme Reactors took 0.000s
-[06:08:53] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStartingEvent to mod IC2
-[06:08:53] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStartingEvent to mod IC2
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - IndustrialCraft 2 took 0.024s
-[06:08:53] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLServerStartingEvent to mod HealthBar
-[06:08:53] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLServerStartingEvent to mod HealthBar
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Health Bar took 0.000s
-[06:08:53] [Server thread/TRACE] [icse/icse]: Sending event FMLServerStartingEvent to mod icse
-[06:08:53] [Server thread/TRACE] [icse/icse]: Sent event FMLServerStartingEvent to mod icse
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - I Can See Everything took 0.000s
-[06:08:53] [Server thread/TRACE] [wawla/wawla]: Sending event FMLServerStartingEvent to mod wawla
-[06:08:53] [Server thread/TRACE] [wawla/wawla]: Sent event FMLServerStartingEvent to mod wawla
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - What Are We Looking At took 0.000s
-[06:08:53] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLServerStartingEvent to mod gregtech
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: ServerStarting-Phase started!
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Unificating outputs of all known Recipe Types.
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: IC2 Machines
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Dungeon Loot
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Smelting
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Crafting Recipes
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: ServerStarting-Phase finished!
-[06:08:53] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLServerStartingEvent to mod gregtech
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - GregTech took 0.079s
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.112s
-[06:08:53] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
-[06:08:53] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
-[06:08:53] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
-[06:08:53] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
-[06:08:53] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
-[06:08:53] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
-[06:08:53] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLServerStartedEvent to mod ccl-entityhook
-[06:08:53] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLServerStartedEvent to mod ccl-entityhook
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ccl-entityhook took 0.000s
-[06:08:53] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLServerStartedEvent to mod CodeChickenLib
-[06:08:53] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLServerStartedEvent to mod CodeChickenLib
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - CodeChicken Lib took 0.001s
-[06:08:53] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLServerStartedEvent to mod dooglamoocitiesmod
-[06:08:53] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLServerStartedEvent to mod dooglamoocitiesmod
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Dooglamoo Cities took 0.000s
-[06:08:53] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLServerStartedEvent to mod zerocore
-[06:08:53] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLServerStartedEvent to mod zerocore
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Zero CORE took 0.000s
-[06:08:53] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLServerStartedEvent to mod bigreactors
-[06:08:53] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLServerStartedEvent to mod bigreactors
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Extreme Reactors took 0.000s
-[06:08:53] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStartedEvent to mod IC2
-[06:08:53] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStartedEvent to mod IC2
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - IndustrialCraft 2 took 0.005s
-[06:08:53] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLServerStartedEvent to mod HealthBar
-[06:08:53] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLServerStartedEvent to mod HealthBar
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Health Bar took 0.000s
-[06:08:53] [Server thread/TRACE] [icse/icse]: Sending event FMLServerStartedEvent to mod icse
-[06:08:53] [Server thread/TRACE] [icse/icse]: Sent event FMLServerStartedEvent to mod icse
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - I Can See Everything took 0.000s
-[06:08:53] [Server thread/TRACE] [wawla/wawla]: Sending event FMLServerStartedEvent to mod wawla
-[06:08:53] [Server thread/TRACE] [wawla/wawla]: Sent event FMLServerStartedEvent to mod wawla
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - What Are We Looking At took 0.000s
-[06:08:53] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLServerStartedEvent to mod gregtech
-[06:08:53] [Server thread/INFO] [gregtech/gregtech]: GT_Mod: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
-[06:08:53] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLServerStartedEvent to mod gregtech
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - GregTech took 0.024s
-[06:08:53] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.031s
-[06:09:04] [Netty Epoll Server IO #0/TRACE] [FML/]: Handshake channel activating
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
-[06:09:04] [Netty Epoll Server IO #0/INFO] [FML/]: Client protocol version 2
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:16 mods->FMLHandshakeServerState$2:HELLO
-[06:09:04] [Netty Epoll Server IO #0/INFO] [FML/]: Client attempting to join with 16 mods : CodeChickenLib@2.5.2.198,mercurius_updater@1.0,FML@8.0.99.99,HealthBar@1.0.5,Forge@12.18.3.2281,bigreactors@1.10.2-0.4.5.28,Neat@1.3-11,XaeroMinimap@1.12.6,wawla@2.3.0.202,dooglamoocitiesmod@1.10.2-1.2.8,IC2@2.6.188-ex110,gregtech@MC1.10.2,mcp@9.19,icse@1.1.0.0,ccl-entityhook@1.0,zerocore@1.10.2-0.1.0.5
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: WAITINGCACK
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: COMPLETE
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
-[06:09:04] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
-[06:09:05] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
-[06:09:05] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
-[06:09:05] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
-[06:09:05] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
-[06:09:05] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[06:09:52] [Server console handler/ERROR] [net.minecraftforge.server.console.TerminalHandler/]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:1.8.0_121]
-	at java.io.FileInputStream.read(FileInputStream.java:207) ~[?:1.8.0_121]
-	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:166) ~[jline-2.13.jar:?]
-	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:135) ~[jline-2.13.jar:?]
-	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:243) ~[jline-2.13.jar:?]
-	at jline.internal.InputStreamReader.read(InputStreamReader.java:257) ~[jline-2.13.jar:?]
-	at jline.internal.InputStreamReader.read(InputStreamReader.java:194) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2136) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2126) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readBinding(ConsoleReader.java:2211) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2460) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2372) ~[jline-2.13.jar:?]
-	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2360) ~[jline-2.13.jar:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:55) [TerminalHandler.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:95) [ld$2.class:?]
+[19:43:01] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [HealthBar] Found status: BETA Target: null
+[19:43:02] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLPreInitializationEvent to mod bigreactors
+[19:43:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Extreme Reactors took 1.984s
+[19:43:02] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLPreInitializationEvent to mod HealthBar
+[19:43:02] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLPreInitializationEvent to mod HealthBar
+[19:43:02] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Health Bar took 0.034s
+[19:43:02] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPreInitializationEvent to mod IC2
+[19:43:02] [Server thread/DEBUG] [IC2.General/IC2]: Starting pre-init.
+[19:43:02] [Server thread/TRACE] [IC2.Resource/IC2]: Successfully loaded server localization.
+[19:43:11] [Server thread/DEBUG] [IC2.Block/IC2]: Successfully built BlockTileEntity for identity ic2:te.
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Itnt as IC2.Itnt
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Nuke as IC2.Nuke
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
+[19:43:12] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Particle as IC2.Particle
+[19:43:12] [Server thread/DEBUG] [IC2.General/IC2]: Finished pre-init after 10265 ms.
+[19:43:12] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPreInitializationEvent to mod IC2
+[19:43:12] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - IndustrialCraft 2 took 10.266s
+[19:43:12] [Server thread/TRACE] [icse/icse]: Sending event FMLPreInitializationEvent to mod icse
+[19:43:12] [Server thread/TRACE] [icse/icse]: Sent event FMLPreInitializationEvent to mod icse
+[19:43:12] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - I Can See Everything took 0.012s
+[19:43:12] [Server thread/TRACE] [wawla/wawla]: Sending event FMLPreInitializationEvent to mod wawla
+[19:43:13] [Server thread/TRACE] [wawla/wawla]: Sent event FMLPreInitializationEvent to mod wawla
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - What Are We Looking At took 0.042s
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 13.027s
+[19:43:13] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:43:13] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:43:13] [Server thread/INFO] [FML/]: Injecting itemstacks
+[19:43:13] [Server thread/INFO] [FML/]: Itemstack injection complete
+[19:43:13] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[19:43:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[19:43:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[19:43:13] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[19:43:13] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[19:43:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[19:43:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[19:43:13] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sending event FMLServerStoppedEvent to mod ccl-entityhook
+[19:43:13] [Server thread/TRACE] [ccl-entityhook/ccl-entityhook]: Sent event FMLServerStoppedEvent to mod ccl-entityhook
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ccl-entityhook took 0.000s
+[19:43:13] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sending event FMLServerStoppedEvent to mod CodeChickenLib
+[19:43:13] [Server thread/TRACE] [CodeChickenLib/CodeChickenLib]: Sent event FMLServerStoppedEvent to mod CodeChickenLib
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CodeChicken Lib took 0.000s
+[19:43:13] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sending event FMLServerStoppedEvent to mod dooglamoocitiesmod
+[19:43:13] [Server thread/TRACE] [dooglamoocitiesmod/dooglamoocitiesmod]: Sent event FMLServerStoppedEvent to mod dooglamoocitiesmod
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Dooglamoo Cities took 0.000s
+[19:43:13] [Server thread/TRACE] [zerocore/zerocore]: Sending event FMLServerStoppedEvent to mod zerocore
+[19:43:13] [Server thread/TRACE] [zerocore/zerocore]: Sent event FMLServerStoppedEvent to mod zerocore
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Zero CORE took 0.000s
+[19:43:13] [Server thread/TRACE] [bigreactors/bigreactors]: Sending event FMLServerStoppedEvent to mod bigreactors
+[19:43:13] [Server thread/TRACE] [bigreactors/bigreactors]: Sent event FMLServerStoppedEvent to mod bigreactors
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Extreme Reactors took 0.000s
+[19:43:13] [Server thread/TRACE] [HealthBar/HealthBar]: Sending event FMLServerStoppedEvent to mod HealthBar
+[19:43:13] [Server thread/TRACE] [HealthBar/HealthBar]: Sent event FMLServerStoppedEvent to mod HealthBar
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Health Bar took 0.000s
+[19:43:13] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+[19:43:13] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 took 0.000s
+[19:43:13] [Server thread/TRACE] [icse/icse]: Sending event FMLServerStoppedEvent to mod icse
+[19:43:13] [Server thread/TRACE] [icse/icse]: Sent event FMLServerStoppedEvent to mod icse
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - I Can See Everything took 0.000s
+[19:43:13] [Server thread/TRACE] [wawla/wawla]: Sending event FMLServerStoppedEvent to mod wawla
+[19:43:13] [Server thread/TRACE] [wawla/wawla]: Sent event FMLServerStoppedEvent to mod wawla
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - What Are We Looking At took 0.000s
+[19:43:13] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.003s
+[19:43:13] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: org.apache.logging.log4j.core.appender.AppenderLoggingException: Attempted to append to non-started appender ServerGuiConsole
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:425)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:406)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.core.Logger.log(Logger.java:110)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1011)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:367)
+[19:43:13] [Server Shutdown Thread/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.MinecraftServer$4.run(MinecraftServer.java:1512)

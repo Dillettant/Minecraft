@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.5.2.198-universal.jar)
+  IC2core (industrialcraft-2-2.6.188-ex110.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 4/22/17 7:10 AM
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Instant Massive Structures Mod (imsm)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+	at modid.imsm.core.IMSM.init(IMSM.java:2049)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:616)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:243)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:221)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:145)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:805)
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:214)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@61c9c3fd from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:253)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 34 more
+Caused by: java.lang.RuntimeException: Attempted to load class bln for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:56)
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:249)
+	... 36 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Linux (amd64) version 4.4.0-72-generic
+	Java Version: 1.8.0_121, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 531269856 bytes (506 MB) / 1038024704 bytes (989 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 2 total; -Xmx2048M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.3.2281 14 mods loaded, 14 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{8.0.99.99} [Forge Mod Loader] (forge.jar) 
+	UCHI	Forge{12.18.3.2281} [Minecraft Forge] (forge.jar) 
+	UCHI	ccl-entityhook{1.0} [ccl-entityhook] (CodeChickenLib-1.10.2-2.5.2.198-universal.jar) 
+	UCHI	CodeChickenLib{2.5.2.198} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.5.2.198-universal.jar) 
+	UCHI	dooglamoocitiesmod{1.10.2-1.2.8} [Dooglamoo Cities] (dooglamoocitiesmod-1.10.2-1.2.8.jar) 
+	UCHI	zerocore{1.10.2-0.1.0.5} [Zero CORE] (zerocore-1.10.2-0.1.0.5.jar) 
+	UCHI	bigreactors{1.10.2-0.4.5.28} [Extreme Reactors] (ExtremeReactors-1.10.2-0.4.5.28.jar) 
+	UCHI	IC2{2.6.188-ex110} [IndustrialCraft 2] (industrialcraft-2-2.6.188-ex110.jar) 
+	UCHI	gregtech{MC1.10.2} [GregTech] (gregtech-5.10.41.jar) 
+	UCHI	HealthBar{1.0.5} [Health Bar] (HealthBar-1.9.4-1.0.5-17.jar) 
+	UCHE	imsm{1.8} [Instant Massive Structures Mod] (InstantantMassive.jar) 
+	UCHI	icse{1.1.0.0} [I Can See Everything] (Wawla-1.10.2-2.3.0.206.jar) 
+	UCHI	wawla{2.3.0.202} [What Are We Looking At] (Wawla-1.10.2-2.3.0.206.jar) 
+	Loaded coremods (and transformers): 
+CCLCorePlugin (CodeChickenLib-1.10.2-2.5.2.198-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.BlockStateLoaderTransformer
+IC2core (industrialcraft-2-2.6.188-ex110.jar)
+  
+	CodeChickenLib Invalid Fingerprint Reports: 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

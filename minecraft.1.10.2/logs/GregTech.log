@@ -65,6 +65,8 @@ GT_Mod: Saving Lang File.
 GT_Mod: PostLoad-Phase finished!
 GT_Mod: Adding Fake Recipes for NEI
 GT_Mod: Loading finished, deallocating temporary Init Variables.
+Localization injected.
+GT_Mod: Re-Unificating Recipes.
 GT_Mod: ServerStarting-Phase started!
 GT_Mod: Unificating outputs of all known Recipe Types.
 GT_Mod: IC2 Machines
@@ -73,8 +75,7 @@ GT_Mod: Smelting
 GT_Mod: Crafting Recipes
 GT_Mod: ServerStarting-Phase finished!
 GT_Mod: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
-regtech.GT_Mod.onPostLoad(GT_Mod.java:535)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
