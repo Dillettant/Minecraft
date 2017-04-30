@@ -17,6 +17,4 @@
 9. Let's play!
 
 ## Instant Massive Mod Notice
-Warning: There is still some bug that it can't be used in the Multuplay mode. You may want to disable it when you connect to the server, but you can enjoy it in the singleplay mode.
-
-A new mod used to build the building struture quickly has been added. Maybe you should update your mods folder.
+Warning: There is still some bug that it can't be used in the Multiplay mode. You may want to disable it when you connect to the server, but you can enjoy it in the singleplay mode.
